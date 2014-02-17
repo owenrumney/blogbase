@@ -1,0 +1,16 @@
+---
+layout: default_home
+title: Owen Rumney Blog
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:5 %}
+      <li><h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+      <span> {{ post.excerpt }} </span>
+    {% endfor %}
+  </ul>
+    <br />
+    <h4><a href="/more.html">Older Posts</a></h4>
+</div>

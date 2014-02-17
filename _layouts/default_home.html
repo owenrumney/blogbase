@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog for Owen Rumney">
+    <meta name="author" content="Owen Rumney">
+    <link rel="alternate" type="application/rss+xml" Title="Owen Rumney Blog" href="/feed.xml"/>
+
+    <title>Owen Rumney - Blog</title>
+    <link rel="icon"
+          type="image/png"
+          href="/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/main.css"/>
+
+    <!-- Add custom CSS here -->
+    <link href="/stylesheets/blog-post.css" rel="stylesheet">
+    <link href="/stylesheets/syntax.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">-->
+    <!--<div class="container">-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">-->
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<a class="navbar-brand" href="/">Owen Rumney</a>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+        <!--<div class="collapse navbar-collapse navbar-ex1-collapse">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li><a href="http://www.owenrumney.co.uk">Main Website</a></li>-->
+                <!--<li><a href="http://www.owenrumney.co.uk/#!/contact">Contact</a></li>-->
+            <!--</ul>-->
+        <!--</div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+    <!--</div>&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</nav>-->
+
+<div class="container">
+    <h1 class="maintitle">Owen Rumney</h1>
+    <h3>Technical and personal blog in one.</h3>
+    <hr class="maintitlerule"/>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-8">
+
+            {{ content }}
+
+        </div>
+
+        <div class="col-lg-4">
+
+                <div class="me"></div>
+            <br/>
+            <p>My name is Owen Rumney and I'm a freelance software developer. You can learn more about the work I
+                do at my <a href="http://www.owenrumney.co.uk" title="Main Website">main website</a>.</p>
+            <p>Here at my blog, I will be detailing things I've discovered and helpful hints.</p>
+            <p>If you wish to contact me, please use the <a href="http://www.owenrumney.co.uk/#!/contact">contact
+                form</a> on my main website.</p>
+            <br/>
+                <!--<img src="/images/me.jpg" alt="Me...Owen Rumney" />-->
+           <!-- /well -->
+
+            <div class="well">
+                <h4>Me on the web</h4>
+                <div class="input-group">
+                    <ul class="nav navbar-nav textwidget logos pull-right">
+                        <li><a href="https://twitter.com/owenrum" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);">
+                            <img src="/stylesheets/images/twitter.png"></a></li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/2046117/owen79" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://stackoverflow.com']);">
+                                <img src="/stylesheets/images/stackoverflow.png"></a>
+                        </li>
+                        <li><a href="http://www.linkedin.com/in/owenrumney" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://www.linkedin.com']);">
+                            <img src="/stylesheets/images/linkedin.png"></a>
+                        </li>
+                        <li><a href="https://github.com/owenrumney" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://github.com']);">
+                            <img src="/stylesheets/images/github.png"></a>
+                        </li>
+                    </ul>
+                </div><!-- /input-group -->
+            </div><!-- /well -->
+
+
+        </div>
+    </div>
+
+    <hr />
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Owen Rumney 2014</p>
+            </div>
+        </div>
+    </footer>
+
+</div><!-- /.container -->
+
+<!-- JavaScript -->
+<script src="/javascripts/jquery-1.10.2.js"></script>
+<script src="/javascripts/bootstrap.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47200748-1', 'owenrumney.co.uk');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

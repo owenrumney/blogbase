@@ -1,0 +1,29 @@
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.employee {
+    stroke: gainsboro;
+    stroke-opacity: .6;
+}
+
+.manager {
+    stroke: grey;
+    stroke-opacity: .8;
+}
+
+.report {
+    stroke: red;
+    stroke-opacity: .6;
+}
+
+.social {
+    stroke: cyan;
+    stroke-opacity: .8;
+}
+
+.previous {
+    stroke-opacity: .6;
+    stroke-dasharray: 5, 5;
+}
