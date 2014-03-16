@@ -7,7 +7,7 @@ For the final project of my open university degree I am looking at creating an a
 
 The project is in the early stages (very early) but I started playing with the graphing capabilities of D3 and some random data I made up about employees and their links.
 
-I'm sure there will be more to come, but this is what I have so far.
+I'm sure there will be more to come, but this is what I have so far.r
 
 ![Example network diagram](/images/network.png)
 
