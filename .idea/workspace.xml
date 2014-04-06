@@ -1,115 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80d9240-7d6e-4965-b319-0555be8449f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/background.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/codebits.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/codeschool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/createvhd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/devdash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/diskmgmt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/kickstarter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/me.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/me.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/mvm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/pw_maze_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/stackoverflow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-09-27-new-blog-new-platform.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-09-29-creating-pet-projects-constant-reminder.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-10-06-SharePoint-2013-and-Office-365.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-10-15-Focus-on-content-page-load.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-12-20-Refresh-mounts-after-fstab-update.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-02-Windows-to-Linux.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-07-Transfer-to-gitpages.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-12-Deleting-SQL-Database-From-Command-Line.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-13-Partitioning-a-large-disk.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-16-SharePoint-2010-2013-Developer-Dashboard.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-01-31-rhn_register_crashes_while_starting.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/images/GooglePlus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/blog-post.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postassets/contacts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/d3js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/default_home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postassets/force_directed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postassets/force_directed_post.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery-1.10.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery-1.10.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-apollo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-clj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-hs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-lisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-llvm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-matlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-mumps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-rd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-tex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-xq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/lang-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/modernizr-2.6.2-respond-1.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/owenblog.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/pygment_trac.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/run_prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/scale.fix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitemap.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/syntax.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="e80d9240-7d6e-4965-b319-0555be8449f2" name="Default" comment="add the lot&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: Owen Rumney &lt;owen@portable.(none)&gt;&#10;#&#10;# On branch master&#10;#&#10;# Initial commit&#10;#&#10;# Changes to be committed:&#10;#   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;new file:   .gitignore&#10;#&#9;new file:   .idea/.name&#10;#&#9;new file:   .idea/encodings.xml&#10;#&#9;new file:   .idea/misc.xml&#10;#&#9;new file:   .idea/modules.xml&#10;#&#9;new file:   .idea/owenblog.iml&#10;#&#9;new file:   .idea/scopes/scope_settings.xml&#10;#&#9;new file:   .idea/vcs.xml&#10;#&#9;new file:   .idea/workspace.xml&#10;#&#9;new file:   CNAME&#10;#&#9;new file:   _config.yml&#10;#&#9;new file:   _layouts/default.html&#10;#&#9;new file:   _layouts/default_home.html&#10;#&#9;new file:   _layouts/post.html&#10;#&#9;new file:   _posts/2013-09-27-new-blog-new-platform.markdown&#10;#&#9;new file:   _posts/2013-09-29-creating-pet-projects-constant-reminder.markdown&#10;#&#9;new file:   _posts/2013-10-06-SharePoint-2013-and-Office-365.markdown&#10;#&#9;new file:   _posts/2013-10-15-Focus-on-content-page-load.markdown&#10;#&#9;new file:   _posts/2013-11-12-WPF-Commands-And-InputBindings.markdown&#10;#&#9;new file:   _posts/2013-12-20-Refresh-mounts-after-fstab-update.markdown&#10;#&#9;new file:   _posts/2014-01-02-Windows-to-Linux.markdown&#10;#&#9;new file:   _posts/2014-01-07-Transfer-to-gitpages.markdown&#10;#&#9;new file:   _posts/2014-01-12-Deleting-SQL-Database-From-Command-Line.markdown&#10;#&#9;new file:   _posts/2014-01-13-Partitioning-a-large-disk.markdown&#10;#&#9;new file:   _posts/2014-01-16-SharePoint-2010-2013-Developer-Dashboard.markdown&#10;#&#9;new file:   _posts/2014-01-31-rhn_register_crashes_while_starting.markdown&#10;#&#9;new file:   _posts/2014-02-06-DIY-Plyobox.markdown&#10;#&#9;new file:   _posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown&#10;#&#9;new file:   favicon.png&#10;#&#9;new file:   feed.xml&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   images/background.gif&#10;#&#9;new file:   images/createvhd.png&#10;#&#9;new file:   images/devdash.png&#10;#&#9;new file:   images/diskmgmt.png&#10;#&#9;new file:   images/me.jpg&#10;#&#9;new file:   images/network.png&#10;#&#9;new file:   index.html&#10;#&#9;new file:   javascripts/bootstrap.js&#10;#&#9;new file:   javascripts/bootstrap.min.js&#10;#&#9;new file:   javascripts/d3js.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.min.js&#10;#&#9;new file:   javascripts/jquery-1.10.2.js&#10;#&#9;new file:   javascripts/lang-apollo.js&#10;#&#9;new file:   javascripts/lang-basic.js&#10;#&#9;new file:   javascripts/lang-clj.js&#10;#&#9;new file:   javascripts/lang-css.js&#10;#&#9;new file:   javascripts/lang-dart.js&#10;#&#9;new file:   javascripts/lang-erlang.js&#10;#&#9;new file:   javascripts/lang-go.js&#10;#&#9;new file:   javascripts/lang-hs.js&#10;#&#9;new file:   javascripts/lang-lisp.js&#10;#&#9;new file:   javascripts/lang-llvm.js&#10;#&#9;new file:   javascripts/lang-lua.js&#10;#&#9;new file:   javascripts/lang-matlab.js&#10;#&#9;new file:   javascripts/lang-ml.js&#10;#&#9;new file:   javascripts/lang-mumps.js&#10;#&#9;new file:   javascripts/lang-n.js&#10;#&#9;new file:   javascripts/lang-pascal.js&#10;#&#9;new file:   javascripts/lang-proto.js&#10;#&#9;new file:   javascripts/lang-r.js&#10;#&#9;new file:   javascripts/lang-rd.js&#10;#&#9;new file:   javascripts/lang-scala.js&#10;#&#9;new file:   javascripts/lang-sql.js&#10;#&#9;new file:   javascripts/lang-tcl.js&#10;#&#9;new file:   javascripts/lang-tex.js&#10;#&#9;new file:   javascripts/lang-vb.js&#10;#&#9;new file:   javascripts/lang-vhdl.js&#10;#&#9;new file:   javascripts/lang-wiki.js&#10;#&#9;new file:   javascripts/lang-xq.js&#10;#&#9;new file:   javascripts/lang-yaml.js&#10;#&#9;new file:   javascripts/modernizr-2.6.2-respond-1.1.0.min.js&#10;#&#9;new file:   javascripts/prettify.css&#10;#&#9;new file:   javascripts/prettify.js&#10;#&#9;new file:   javascripts/run_prettify.js&#10;#&#9;new file:   javascripts/scale.fix.js&#10;#&#9;new file:   more.html&#10;#&#9;new file:   postassets/contacts.json&#10;#&#9;new file:   postassets/force_directed.js&#10;#&#9;new file:   postassets/force_directed_post.css&#10;#&#9;new file:   publish.sh&#10;#&#9;new file:   readme.md&#10;#&#9;new file:   sitemap.xml&#10;#&#9;new file:   stylesheets/blog-post.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.min.css&#10;#&#9;new file:   stylesheets/bootstrap.css&#10;#&#9;new file:   stylesheets/bootstrap.less&#10;#&#9;new file:   stylesheets/bootstrap.min.css&#10;#&#9;new file:   stylesheets/images/GooglePlus.svg&#10;#&#9;new file:   stylesheets/images/background.gif&#10;#&#9;new file:   stylesheets/images/codebits.png&#10;#&#9;new file:   stylesheets/images/codeschool.png&#10;#&#9;new file:   stylesheets/images/github.png&#10;#&#9;new file:   stylesheets/images/googleplus.png&#10;#&#9;new file:   stylesheets/images/kickstarter.png&#10;#&#9;new file:   stylesheets/images/linkedin.png&#10;#&#9;new file:   stylesheets/images/me.jpg&#10;#&#9;new file:   stylesheets/images/me.png&#10;#&#9;new file:   stylesheets/images/mvm.png&#10;#&#9;new file:   stylesheets/images/pw_maze_white.png&#10;#&#9;new file:   stylesheets/images/stackoverflow.png&#10;#&#9;new file:   stylesheets/images/twitter.png&#10;#&#9;new file:   stylesheets/main.css&#10;#&#9;new file:   stylesheets/pygment_trac.css&#10;#&#9;new file:   stylesheets/style.css&#10;#&#9;new file:   stylesheets/syntax.css&#10;#&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default_home.html" afterPath="$PROJECT_DIR$/_layouts/default_home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/publish.sh" afterPath="$PROJECT_DIR$/publish.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="owenblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,27 +30,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2014-02-06-DIY-Plyobox.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
+      <file leaf-file-name="2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="77" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="9" column="69" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2125">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown">
+      <file leaf-file-name="2014-03-04-OU-Final-Project-Started.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2014-03-04-OU-Final-Project-Started.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="68" selection-start="581" selection-end="581" vertical-scroll-proportion="0.17307693" vertical-offset="30" max-vertical-offset="1905">
+            <state line="11" column="14" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="125103">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4265" column="1" selection-start="70328" selection-end="70328" vertical-scroll-proportion="0.26407507" vertical-offset="72308" max-vertical-offset="125052">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -166,16 +85,7 @@
       <file leaf-file-name="contacts.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postassets/contacts.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3090">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="more.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/more.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="6" selection-start="431" selection-end="431" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3502">
               <folding />
             </state>
           </provider>
@@ -184,16 +94,7 @@
       <file leaf-file-name="d3js.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascripts/d3js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="20" selection-start="1341" selection-end="1350" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="2280">
+            <state line="3" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -202,7 +103,7 @@
       <file leaf-file-name="force_directed_post.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postassets/force_directed_post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="9" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="20" column="9" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -211,10 +112,8 @@
       <file leaf-file-name="force_directed.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postassets/force_directed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
-              <folding>
-                <marker date="1392625322039" expanded="true" signature="352:2368" placeholder="{...}" />
-              </folding>
+            <state line="11" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1853">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,8 +134,6 @@
         <option value="$PROJECT_DIR$/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/more.html" />
-        <option value="$PROJECT_DIR$/_layouts/default_home.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown" />
         <option value="$PROJECT_DIR$/javascripts/d3js.js" />
         <option value="$PROJECT_DIR$/stylesheets/force_directed_post.css" />
@@ -244,14 +141,18 @@
         <option value="$PROJECT_DIR$/javascripts/force_directed.js" />
         <option value="$PROJECT_DIR$/postassets/force_directed.js" />
         <option value="$PROJECT_DIR$/_posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2014-03-04-OU-Final-Project-Started.markdown" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/default_home.html" />
+        <option value="$PROJECT_DIR$/stylesheets/bootstrap.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="52" />
-    <option name="width" value="1455" />
-    <option name="height" value="937" />
+    <option name="x" value="139" />
+    <option name="y" value="42" />
+    <option name="width" value="1632" />
+    <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -294,7 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
+              <option name="myItemId" value="blogbase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
+              <option name="myItemId" value="blogbase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -318,49 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="postassets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owenblog" />
+              <option name="myItemId" value="blogbase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -378,6 +237,11 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fdag_miserables" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -450,17 +314,23 @@
       <created>1391595513012</created>
       <updated>1391595513012</updated>
     </task>
+    <task id="LOCAL-00001" summary="add the lot&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: Owen Rumney &lt;owen@portable.(none)&gt;&#10;#&#10;# On branch master&#10;#&#10;# Initial commit&#10;#&#10;# Changes to be committed:&#10;#   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;new file:   .gitignore&#10;#&#9;new file:   .idea/.name&#10;#&#9;new file:   .idea/encodings.xml&#10;#&#9;new file:   .idea/misc.xml&#10;#&#9;new file:   .idea/modules.xml&#10;#&#9;new file:   .idea/owenblog.iml&#10;#&#9;new file:   .idea/scopes/scope_settings.xml&#10;#&#9;new file:   .idea/vcs.xml&#10;#&#9;new file:   .idea/workspace.xml&#10;#&#9;new file:   CNAME&#10;#&#9;new file:   _config.yml&#10;#&#9;new file:   _layouts/default.html&#10;#&#9;new file:   _layouts/default_home.html&#10;#&#9;new file:   _layouts/post.html&#10;#&#9;new file:   _posts/2013-09-27-new-blog-new-platform.markdown&#10;#&#9;new file:   _posts/2013-09-29-creating-pet-projects-constant-reminder.markdown&#10;#&#9;new file:   _posts/2013-10-06-SharePoint-2013-and-Office-365.markdown&#10;#&#9;new file:   _posts/2013-10-15-Focus-on-content-page-load.markdown&#10;#&#9;new file:   _posts/2013-11-12-WPF-Commands-And-InputBindings.markdown&#10;#&#9;new file:   _posts/2013-12-20-Refresh-mounts-after-fstab-update.markdown&#10;#&#9;new file:   _posts/2014-01-02-Windows-to-Linux.markdown&#10;#&#9;new file:   _posts/2014-01-07-Transfer-to-gitpages.markdown&#10;#&#9;new file:   _posts/2014-01-12-Deleting-SQL-Database-From-Command-Line.markdown&#10;#&#9;new file:   _posts/2014-01-13-Partitioning-a-large-disk.markdown&#10;#&#9;new file:   _posts/2014-01-16-SharePoint-2010-2013-Developer-Dashboard.markdown&#10;#&#9;new file:   _posts/2014-01-31-rhn_register_crashes_while_starting.markdown&#10;#&#9;new file:   _posts/2014-02-06-DIY-Plyobox.markdown&#10;#&#9;new file:   _posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown&#10;#&#9;new file:   favicon.png&#10;#&#9;new file:   feed.xml&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   images/background.gif&#10;#&#9;new file:   images/createvhd.png&#10;#&#9;new file:   images/devdash.png&#10;#&#9;new file:   images/diskmgmt.png&#10;#&#9;new file:   images/me.jpg&#10;#&#9;new file:   images/network.png&#10;#&#9;new file:   index.html&#10;#&#9;new file:   javascripts/bootstrap.js&#10;#&#9;new file:   javascripts/bootstrap.min.js&#10;#&#9;new file:   javascripts/d3js.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.min.js&#10;#&#9;new file:   javascripts/jquery-1.10.2.js&#10;#&#9;new file:   javascripts/lang-apollo.js&#10;#&#9;new file:   javascripts/lang-basic.js&#10;#&#9;new file:   javascripts/lang-clj.js&#10;#&#9;new file:   javascripts/lang-css.js&#10;#&#9;new file:   javascripts/lang-dart.js&#10;#&#9;new file:   javascripts/lang-erlang.js&#10;#&#9;new file:   javascripts/lang-go.js&#10;#&#9;new file:   javascripts/lang-hs.js&#10;#&#9;new file:   javascripts/lang-lisp.js&#10;#&#9;new file:   javascripts/lang-llvm.js&#10;#&#9;new file:   javascripts/lang-lua.js&#10;#&#9;new file:   javascripts/lang-matlab.js&#10;#&#9;new file:   javascripts/lang-ml.js&#10;#&#9;new file:   javascripts/lang-mumps.js&#10;#&#9;new file:   javascripts/lang-n.js&#10;#&#9;new file:   javascripts/lang-pascal.js&#10;#&#9;new file:   javascripts/lang-proto.js&#10;#&#9;new file:   javascripts/lang-r.js&#10;#&#9;new file:   javascripts/lang-rd.js&#10;#&#9;new file:   javascripts/lang-scala.js&#10;#&#9;new file:   javascripts/lang-sql.js&#10;#&#9;new file:   javascripts/lang-tcl.js&#10;#&#9;new file:   javascripts/lang-tex.js&#10;#&#9;new file:   javascripts/lang-vb.js&#10;#&#9;new file:   javascripts/lang-vhdl.js&#10;#&#9;new file:   javascripts/lang-wiki.js&#10;#&#9;new file:   javascripts/lang-xq.js&#10;#&#9;new file:   javascripts/lang-yaml.js&#10;#&#9;new file:   javascripts/modernizr-2.6.2-respond-1.1.0.min.js&#10;#&#9;new file:   javascripts/prettify.css&#10;#&#9;new file:   javascripts/prettify.js&#10;#&#9;new file:   javascripts/run_prettify.js&#10;#&#9;new file:   javascripts/scale.fix.js&#10;#&#9;new file:   more.html&#10;#&#9;new file:   postassets/contacts.json&#10;#&#9;new file:   postassets/force_directed.js&#10;#&#9;new file:   postassets/force_directed_post.css&#10;#&#9;new file:   publish.sh&#10;#&#9;new file:   readme.md&#10;#&#9;new file:   sitemap.xml&#10;#&#9;new file:   stylesheets/blog-post.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.min.css&#10;#&#9;new file:   stylesheets/bootstrap.css&#10;#&#9;new file:   stylesheets/bootstrap.less&#10;#&#9;new file:   stylesheets/bootstrap.min.css&#10;#&#9;new file:   stylesheets/images/GooglePlus.svg&#10;#&#9;new file:   stylesheets/images/background.gif&#10;#&#9;new file:   stylesheets/images/codebits.png&#10;#&#9;new file:   stylesheets/images/codeschool.png&#10;#&#9;new file:   stylesheets/images/github.png&#10;#&#9;new file:   stylesheets/images/googleplus.png&#10;#&#9;new file:   stylesheets/images/kickstarter.png&#10;#&#9;new file:   stylesheets/images/linkedin.png&#10;#&#9;new file:   stylesheets/images/me.jpg&#10;#&#9;new file:   stylesheets/images/me.png&#10;#&#9;new file:   stylesheets/images/mvm.png&#10;#&#9;new file:   stylesheets/images/pw_maze_white.png&#10;#&#9;new file:   stylesheets/images/stackoverflow.png&#10;#&#9;new file:   stylesheets/images/twitter.png&#10;#&#9;new file:   stylesheets/main.css&#10;#&#9;new file:   stylesheets/pygment_trac.css&#10;#&#9;new file:   stylesheets/style.css&#10;#&#9;new file:   stylesheets/syntax.css&#10;#&#10;">
+      <created>1395003302857</created>
+      <updated>1395003302857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="52" width="1455" height="937" extended-state="4" />
-    <editor active="true" />
+    <frame x="139" y="42" width="1632" height="939" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2756014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19740099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -469,7 +339,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -487,16 +357,45 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="add the lot&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: Owen Rumney &lt;owen@portable.(none)&gt;&#10;#&#10;# On branch master&#10;#&#10;# Initial commit&#10;#&#10;# Changes to be committed:&#10;#   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;new file:   .gitignore&#10;#&#9;new file:   .idea/.name&#10;#&#9;new file:   .idea/encodings.xml&#10;#&#9;new file:   .idea/misc.xml&#10;#&#9;new file:   .idea/modules.xml&#10;#&#9;new file:   .idea/owenblog.iml&#10;#&#9;new file:   .idea/scopes/scope_settings.xml&#10;#&#9;new file:   .idea/vcs.xml&#10;#&#9;new file:   .idea/workspace.xml&#10;#&#9;new file:   CNAME&#10;#&#9;new file:   _config.yml&#10;#&#9;new file:   _layouts/default.html&#10;#&#9;new file:   _layouts/default_home.html&#10;#&#9;new file:   _layouts/post.html&#10;#&#9;new file:   _posts/2013-09-27-new-blog-new-platform.markdown&#10;#&#9;new file:   _posts/2013-09-29-creating-pet-projects-constant-reminder.markdown&#10;#&#9;new file:   _posts/2013-10-06-SharePoint-2013-and-Office-365.markdown&#10;#&#9;new file:   _posts/2013-10-15-Focus-on-content-page-load.markdown&#10;#&#9;new file:   _posts/2013-11-12-WPF-Commands-And-InputBindings.markdown&#10;#&#9;new file:   _posts/2013-12-20-Refresh-mounts-after-fstab-update.markdown&#10;#&#9;new file:   _posts/2014-01-02-Windows-to-Linux.markdown&#10;#&#9;new file:   _posts/2014-01-07-Transfer-to-gitpages.markdown&#10;#&#9;new file:   _posts/2014-01-12-Deleting-SQL-Database-From-Command-Line.markdown&#10;#&#9;new file:   _posts/2014-01-13-Partitioning-a-large-disk.markdown&#10;#&#9;new file:   _posts/2014-01-16-SharePoint-2010-2013-Developer-Dashboard.markdown&#10;#&#9;new file:   _posts/2014-01-31-rhn_register_crashes_while_starting.markdown&#10;#&#9;new file:   _posts/2014-02-06-DIY-Plyobox.markdown&#10;#&#9;new file:   _posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown&#10;#&#9;new file:   favicon.png&#10;#&#9;new file:   feed.xml&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   images/background.gif&#10;#&#9;new file:   images/createvhd.png&#10;#&#9;new file:   images/devdash.png&#10;#&#9;new file:   images/diskmgmt.png&#10;#&#9;new file:   images/me.jpg&#10;#&#9;new file:   images/network.png&#10;#&#9;new file:   index.html&#10;#&#9;new file:   javascripts/bootstrap.js&#10;#&#9;new file:   javascripts/bootstrap.min.js&#10;#&#9;new file:   javascripts/d3js.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.min.js&#10;#&#9;new file:   javascripts/jquery-1.10.2.js&#10;#&#9;new file:   javascripts/lang-apollo.js&#10;#&#9;new file:   javascripts/lang-basic.js&#10;#&#9;new file:   javascripts/lang-clj.js&#10;#&#9;new file:   javascripts/lang-css.js&#10;#&#9;new file:   javascripts/lang-dart.js&#10;#&#9;new file:   javascripts/lang-erlang.js&#10;#&#9;new file:   javascripts/lang-go.js&#10;#&#9;new file:   javascripts/lang-hs.js&#10;#&#9;new file:   javascripts/lang-lisp.js&#10;#&#9;new file:   javascripts/lang-llvm.js&#10;#&#9;new file:   javascripts/lang-lua.js&#10;#&#9;new file:   javascripts/lang-matlab.js&#10;#&#9;new file:   javascripts/lang-ml.js&#10;#&#9;new file:   javascripts/lang-mumps.js&#10;#&#9;new file:   javascripts/lang-n.js&#10;#&#9;new file:   javascripts/lang-pascal.js&#10;#&#9;new file:   javascripts/lang-proto.js&#10;#&#9;new file:   javascripts/lang-r.js&#10;#&#9;new file:   javascripts/lang-rd.js&#10;#&#9;new file:   javascripts/lang-scala.js&#10;#&#9;new file:   javascripts/lang-sql.js&#10;#&#9;new file:   javascripts/lang-tcl.js&#10;#&#9;new file:   javascripts/lang-tex.js&#10;#&#9;new file:   javascripts/lang-vb.js&#10;#&#9;new file:   javascripts/lang-vhdl.js&#10;#&#9;new file:   javascripts/lang-wiki.js&#10;#&#9;new file:   javascripts/lang-xq.js&#10;#&#9;new file:   javascripts/lang-yaml.js&#10;#&#9;new file:   javascripts/modernizr-2.6.2-respond-1.1.0.min.js&#10;#&#9;new file:   javascripts/prettify.css&#10;#&#9;new file:   javascripts/prettify.js&#10;#&#9;new file:   javascripts/run_prettify.js&#10;#&#9;new file:   javascripts/scale.fix.js&#10;#&#9;new file:   more.html&#10;#&#9;new file:   postassets/contacts.json&#10;#&#9;new file:   postassets/force_directed.js&#10;#&#9;new file:   postassets/force_directed_post.css&#10;#&#9;new file:   publish.sh&#10;#&#9;new file:   readme.md&#10;#&#9;new file:   sitemap.xml&#10;#&#9;new file:   stylesheets/blog-post.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.min.css&#10;#&#9;new file:   stylesheets/bootstrap.css&#10;#&#9;new file:   stylesheets/bootstrap.less&#10;#&#9;new file:   stylesheets/bootstrap.min.css&#10;#&#9;new file:   stylesheets/images/GooglePlus.svg&#10;#&#9;new file:   stylesheets/images/background.gif&#10;#&#9;new file:   stylesheets/images/codebits.png&#10;#&#9;new file:   stylesheets/images/codeschool.png&#10;#&#9;new file:   stylesheets/images/github.png&#10;#&#9;new file:   stylesheets/images/googleplus.png&#10;#&#9;new file:   stylesheets/images/kickstarter.png&#10;#&#9;new file:   stylesheets/images/linkedin.png&#10;#&#9;new file:   stylesheets/images/me.jpg&#10;#&#9;new file:   stylesheets/images/me.png&#10;#&#9;new file:   stylesheets/images/mvm.png&#10;#&#9;new file:   stylesheets/images/pw_maze_white.png&#10;#&#9;new file:   stylesheets/images/stackoverflow.png&#10;#&#9;new file:   stylesheets/images/twitter.png&#10;#&#9;new file:   stylesheets/main.css&#10;#&#9;new file:   stylesheets/pygment_trac.css&#10;#&#9;new file:   stylesheets/style.css&#10;#&#9;new file:   stylesheets/syntax.css&#10;#&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the lot&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;#&#10;# Committer: Owen Rumney &lt;owen@portable.(none)&gt;&#10;#&#10;# On branch master&#10;#&#10;# Initial commit&#10;#&#10;# Changes to be committed:&#10;#   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;new file:   .gitignore&#10;#&#9;new file:   .idea/.name&#10;#&#9;new file:   .idea/encodings.xml&#10;#&#9;new file:   .idea/misc.xml&#10;#&#9;new file:   .idea/modules.xml&#10;#&#9;new file:   .idea/owenblog.iml&#10;#&#9;new file:   .idea/scopes/scope_settings.xml&#10;#&#9;new file:   .idea/vcs.xml&#10;#&#9;new file:   .idea/workspace.xml&#10;#&#9;new file:   CNAME&#10;#&#9;new file:   _config.yml&#10;#&#9;new file:   _layouts/default.html&#10;#&#9;new file:   _layouts/default_home.html&#10;#&#9;new file:   _layouts/post.html&#10;#&#9;new file:   _posts/2013-09-27-new-blog-new-platform.markdown&#10;#&#9;new file:   _posts/2013-09-29-creating-pet-projects-constant-reminder.markdown&#10;#&#9;new file:   _posts/2013-10-06-SharePoint-2013-and-Office-365.markdown&#10;#&#9;new file:   _posts/2013-10-15-Focus-on-content-page-load.markdown&#10;#&#9;new file:   _posts/2013-11-12-WPF-Commands-And-InputBindings.markdown&#10;#&#9;new file:   _posts/2013-12-20-Refresh-mounts-after-fstab-update.markdown&#10;#&#9;new file:   _posts/2014-01-02-Windows-to-Linux.markdown&#10;#&#9;new file:   _posts/2014-01-07-Transfer-to-gitpages.markdown&#10;#&#9;new file:   _posts/2014-01-12-Deleting-SQL-Database-From-Command-Line.markdown&#10;#&#9;new file:   _posts/2014-01-13-Partitioning-a-large-disk.markdown&#10;#&#9;new file:   _posts/2014-01-16-SharePoint-2010-2013-Developer-Dashboard.markdown&#10;#&#9;new file:   _posts/2014-01-31-rhn_register_crashes_while_starting.markdown&#10;#&#9;new file:   _posts/2014-02-06-DIY-Plyobox.markdown&#10;#&#9;new file:   _posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown&#10;#&#9;new file:   favicon.png&#10;#&#9;new file:   feed.xml&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   images/background.gif&#10;#&#9;new file:   images/createvhd.png&#10;#&#9;new file:   images/devdash.png&#10;#&#9;new file:   images/diskmgmt.png&#10;#&#9;new file:   images/me.jpg&#10;#&#9;new file:   images/network.png&#10;#&#9;new file:   index.html&#10;#&#9;new file:   javascripts/bootstrap.js&#10;#&#9;new file:   javascripts/bootstrap.min.js&#10;#&#9;new file:   javascripts/d3js.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.js&#10;#&#9;new file:   javascripts/jquery-1.10.1.min.js&#10;#&#9;new file:   javascripts/jquery-1.10.2.js&#10;#&#9;new file:   javascripts/lang-apollo.js&#10;#&#9;new file:   javascripts/lang-basic.js&#10;#&#9;new file:   javascripts/lang-clj.js&#10;#&#9;new file:   javascripts/lang-css.js&#10;#&#9;new file:   javascripts/lang-dart.js&#10;#&#9;new file:   javascripts/lang-erlang.js&#10;#&#9;new file:   javascripts/lang-go.js&#10;#&#9;new file:   javascripts/lang-hs.js&#10;#&#9;new file:   javascripts/lang-lisp.js&#10;#&#9;new file:   javascripts/lang-llvm.js&#10;#&#9;new file:   javascripts/lang-lua.js&#10;#&#9;new file:   javascripts/lang-matlab.js&#10;#&#9;new file:   javascripts/lang-ml.js&#10;#&#9;new file:   javascripts/lang-mumps.js&#10;#&#9;new file:   javascripts/lang-n.js&#10;#&#9;new file:   javascripts/lang-pascal.js&#10;#&#9;new file:   javascripts/lang-proto.js&#10;#&#9;new file:   javascripts/lang-r.js&#10;#&#9;new file:   javascripts/lang-rd.js&#10;#&#9;new file:   javascripts/lang-scala.js&#10;#&#9;new file:   javascripts/lang-sql.js&#10;#&#9;new file:   javascripts/lang-tcl.js&#10;#&#9;new file:   javascripts/lang-tex.js&#10;#&#9;new file:   javascripts/lang-vb.js&#10;#&#9;new file:   javascripts/lang-vhdl.js&#10;#&#9;new file:   javascripts/lang-wiki.js&#10;#&#9;new file:   javascripts/lang-xq.js&#10;#&#9;new file:   javascripts/lang-yaml.js&#10;#&#9;new file:   javascripts/modernizr-2.6.2-respond-1.1.0.min.js&#10;#&#9;new file:   javascripts/prettify.css&#10;#&#9;new file:   javascripts/prettify.js&#10;#&#9;new file:   javascripts/run_prettify.js&#10;#&#9;new file:   javascripts/scale.fix.js&#10;#&#9;new file:   more.html&#10;#&#9;new file:   postassets/contacts.json&#10;#&#9;new file:   postassets/force_directed.js&#10;#&#9;new file:   postassets/force_directed_post.css&#10;#&#9;new file:   publish.sh&#10;#&#9;new file:   readme.md&#10;#&#9;new file:   sitemap.xml&#10;#&#9;new file:   stylesheets/blog-post.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.css&#10;#&#9;new file:   stylesheets/bootstrap-theme.min.css&#10;#&#9;new file:   stylesheets/bootstrap.css&#10;#&#9;new file:   stylesheets/bootstrap.less&#10;#&#9;new file:   stylesheets/bootstrap.min.css&#10;#&#9;new file:   stylesheets/images/GooglePlus.svg&#10;#&#9;new file:   stylesheets/images/background.gif&#10;#&#9;new file:   stylesheets/images/codebits.png&#10;#&#9;new file:   stylesheets/images/codeschool.png&#10;#&#9;new file:   stylesheets/images/github.png&#10;#&#9;new file:   stylesheets/images/googleplus.png&#10;#&#9;new file:   stylesheets/images/kickstarter.png&#10;#&#9;new file:   stylesheets/images/linkedin.png&#10;#&#9;new file:   stylesheets/images/me.jpg&#10;#&#9;new file:   stylesheets/images/me.png&#10;#&#9;new file:   stylesheets/images/mvm.png&#10;#&#9;new file:   stylesheets/images/pw_maze_white.png&#10;#&#9;new file:   stylesheets/images/stackoverflow.png&#10;#&#9;new file:   stylesheets/images/twitter.png&#10;#&#9;new file:   stylesheets/main.css&#10;#&#9;new file:   stylesheets/pygment_trac.css&#10;#&#9;new file:   stylesheets/style.css&#10;#&#9;new file:   stylesheets/syntax.css&#10;#&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
+        <state line="29" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2280">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/more.html">
@@ -508,9 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -522,19 +419,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
+        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
@@ -543,22 +433,15 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/more.html">
@@ -570,71 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/more.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -646,19 +465,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
+        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
@@ -667,22 +479,15 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/more.html">
@@ -694,9 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -715,23 +518,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
+        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/more.html">
@@ -743,9 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -757,47 +552,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010">
-          <folding />
-        </state>
+        <state line="72" column="17" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2010" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-11-12-WPF-Commands-And-InputBindings.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="0.2723971" vertical-offset="0" max-vertical-offset="826">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.33024335" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="291" selection-end="291" vertical-scroll-proportion="0.33024335" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-02-06-DIY-Plyobox.markdown">
@@ -805,9 +570,6 @@
         <state line="0" column="0" selection-start="0" selection-end="77" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/d3js.js">
@@ -819,21 +581,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/publish.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="17" selection-end="17" vertical-scroll-proportion="0.017381229" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
+        <state line="1" column="5" selection-start="17" selection-end="17" vertical-scroll-proportion="0.017381229" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="431" selection-end="431" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="1341" selection-end="1350" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="2280">
+        <state line="15" column="6" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
@@ -855,9 +608,7 @@
     <entry file="file://$PROJECT_DIR$/postassets/force_directed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
-          <folding>
-            <marker date="1392625322039" expanded="true" signature="352:2368" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,13 +618,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-02-14-D3.js-Force-Directed-Graph-Attempt1.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="68" selection-start="581" selection-end="581" vertical-scroll-proportion="0.17307693" vertical-offset="30" max-vertical-offset="1905">
+        <state line="9" column="69" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2125">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-03-04-OU-Final-Project-Started.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="28" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.2911726" vertical-offset="1683" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1572" selection-end="1572" vertical-scroll-proportion="-27.384615" vertical-offset="70" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="347" selection-end="404" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="125103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4265" column="1" selection-start="70328" selection-end="70328" vertical-scroll-proportion="0.26407507" vertical-offset="72308" max-vertical-offset="125052">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

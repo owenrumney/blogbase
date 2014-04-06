@@ -3,4 +3,3 @@ description: Blog for Owen Rumney
 url: http://blog.owenrumney.co.uk
 markdown: redcarpet
 pygments: true
-lsi: true

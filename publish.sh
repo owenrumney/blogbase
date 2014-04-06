@@ -1,2 +1,1 @@
-#!/bin/bash
-sudo jekyll build --destination ../published
+jekyll build --destination ../published
