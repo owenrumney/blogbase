@@ -1,5 +1,5 @@
-name: Owen Rumney Blog
-description: Blog for Owen Rumney
-url: http://blog.owenrumney.co.uk
+name: Owen Rumney - Software Developer
+description: Owen Rumney - Software Developer
+url: http://localhost:4000
 markdown: redcarpet
 pygments: true
