@@ -7,7 +7,7 @@ I have been doing some work for a company who have a user base who primarily use
 
 Initially, I solved this using by using JavaScript to set the page to full screen;
 
-{% highlight javascript linenos=table %}
+{% highlight javascript linenos %}
 
 window.onload = function () {
 
@@ -37,7 +37,7 @@ I was asked to find a better way to remove the menus that was more instantaneous
 
 To achieve this, I looked at what the SharePoint `SetFullScreenMode` function actually did. I found that in addition to setting the cookie, it also applies the `ms-fullscreenmode` css class to the body element, which led me to the following CSS in the master page;
 
-{% highlight css linenos=table %}
+{% highlight css %}
 
 <style>
 
