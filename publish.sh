@@ -1,1 +1,1 @@
-jekyll build --destination ../published
+jekyll build --destination
