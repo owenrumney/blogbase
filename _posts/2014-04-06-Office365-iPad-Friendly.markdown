@@ -7,7 +7,7 @@ I have been doing some work for a company who have a user base who primarily use
 
 Initially, I solved this using by using JavaScript to set the page to full screen;
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 
 window.onload = function () {
 

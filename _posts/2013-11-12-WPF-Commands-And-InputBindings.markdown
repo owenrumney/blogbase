@@ -12,13 +12,13 @@ In my current play project I decided to find a better way to achieve this and I 
 
 On my ViewModel I have a DelegateCommand called AddTicker which I pass delegates for the Execute and CanExecute,
 
-{% highlight csharp linenos=table %}
+{% highlight csharp %}
 public ICommand AddTicker {get; private set;}
 {% endhighlight %}
 
 to bind to this from a button is easy, and now the same can be said for a Key press using the following XAML;
 
-{% highlight xml linenos=table %}
+{% highlight xml  %}
 <TextBox.InputBindings>
   <KeyBinding Key="Return" Command="{Binding AddTicker}"></KeyBinding>
 </TextBox.InputBindings>
@@ -26,7 +26,7 @@ to bind to this from a button is easy, and now the same can be said for a Key pr
 
 As an aside, it took me a while to remember how to get the CanExecuteChanged to fire without some ugly callback mechanism, I knew it involved a registration and it eventually came to me;
 
-{% highlight csharp linenos=table %}
+{% highlight csharp table %}
 CommandManager.RequerySuggested += (s, e) => RaiseCanExecuteChanged();
 
 public void RaiseCanExecuteChanged()

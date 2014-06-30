@@ -11,7 +11,7 @@ I'm sure there will be more to come, but this is what I have so far.r
 
 ![Example network diagram](/images/network.png)
 
-{% highlight javascript linenos=table %}
+{% highlight javascript %}
 var width = 960,
     height = 500;
 

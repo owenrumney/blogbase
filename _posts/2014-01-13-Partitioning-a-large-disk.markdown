@@ -19,7 +19,7 @@ We have bought 3TB disks for the data storage in these boxes, given their size t
  initially it's been difficult to get fdisk to partition the disks correctly. In the end,
  the following steps were all that were needed to get things working and create the 3TB partition.
 
-{% highlight sh linenos=table %}
+{% highlight sh  %}
 $ fdisk -l
 # find the correct device name, in my case /dev/hdc
 $ parted /dev/hdc1
