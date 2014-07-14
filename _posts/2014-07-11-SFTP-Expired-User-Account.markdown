@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SFTP expired user account
+title: SFTP Connection Closed - password expired?
 tags: [Linux, SFTP, Users]
 ---
 I've just had an interesting problem with an SFTP account that suddenly stopped working from a cron job. When the account was used directly from the bash prompt the response was simply Connection closed immediately.
