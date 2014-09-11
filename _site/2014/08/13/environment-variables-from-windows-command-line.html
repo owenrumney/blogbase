@@ -111,31 +111,21 @@
 <section id="blog" class="section mtcon">
     <div class="row">
         <div class="blog">
-            <h2>Using yum history</h2>
+            <h2>Creating environment variables from the command line (Windows)</h2>
 <p class="meta">13 Aug 2014</p>
 
 <div class="post">
-<p>I have been setting up a couple of Red Hat boxes and I need to have a cron task to mount a network share from an AD domain, copy the files then dismount.</p>
+<p>I know that it is incredibly lazy and a non problem but I find it quite tedious in Windows 8 to go digging for the system environment variable GUI whenever I need to add or update something.</p>
 
-<p>In the past I have successfully accessed the network shares using a given set of credentials but I could not get it to work after install <code>samba-client</code> and <code>samba-common</code>.</p>
+<p>Generally I&#39;m already in the command prompt so I was keen to find a way to create them from there without having to go into search for it each time.</p>
 
-<p>My script on the new machine was the same as the script on the working machine so there had to be a discrepency on installed packages, step in <code>yum history</code>.</p>
+<p>Since Windows XP, setx has been available as an extra download, and more recently it&#39;s included in Windows out of the box - this is the command that I wanted.</p>
 
-<p>To get the history of yum commands use</p>
+<p>To create a persistent STORM_HOME environment variable, use the following command. The /M sets it as a system variable rather than the default user variable. </p>
 
-<div class="highlight"><pre><code class="sh">yum <span class="nb">history</span></code></pre></div>
+<div class="highlight"><pre><code class="sh">setx /M STORM_HOME d:<span class="se">\s</span>torm-latest</code></pre></div>
 
-<p>which will give the output similar to;</p>
-
-<p><img src="/images/yum_history.png" alt="yum history output"></p>
-
-<p>Thankfully, from the dates I was able to work out the point that I had done the install. From this point you can look at a specific item, for example;</p>
-
-<div class="highlight"><pre><code class="sh">yum <span class="nb">history </span>info 57</code></pre></div>
-
-<p>which will return more information about the command</p>
-
-<p><img src="/images/yum_history_info_57.png" alt="yum history info for id 57"></p>
+<p>There are a number of other options, do <code>setx /?</code> to see them.</p>
 
 </div>
 
