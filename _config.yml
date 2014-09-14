@@ -2,4 +2,4 @@ name: Owen Rumney - Software Developer
 description: Owen Rumney - Software Developer
 url: http://www.owenrumney.co.uk
 markdown: redcarpet
-highlighter: pygments
+highlighter: redcarpet
