@@ -161,11 +161,13 @@ class FraudAlertingService extends Serializable {
     val kafkaMessages: ReceiverInputDStream[(String, String)] =
       KafkaUtils.createStream(stream, "localhost:2181", "1", Map("kafka_queue" -> 1))
 
-    kafkaMessages.window(Minutes(10), Seconds(10)).foreachRDD(r1 => r1.map(m => {
-      val c = m._2.split("\t")
-      Transaction(c(0), c(1), c(2).toDouble)
-    }).groupBy(t => t.cardNo)
-      .map(t => (t._1, t._2.map(t2 => t2.amount).sum)).filter(m => m._2 > 10000)
+    kafkaMessages.window(Minutes(10), Seconds(10)).foreachRDD(rdd => rdd.map(record => {
+      val components = record._2.split("\t")
+      Transaction(components(0), components(1), components(2).toDouble)
+    }).groupBy(transaction => transaction.cardNo)
+      .map(groupedTransaction =>
+      (groupedTransaction._1, groupedTransaction._2.map(transaction => transaction.amount).sum))
+      .filter(m => m._2 > 10000)
       .foreach(t => alert(Alert(t._1, "Transaction amount exceed"))))
 
     stream.start()
