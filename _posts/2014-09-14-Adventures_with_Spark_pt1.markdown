@@ -25,7 +25,7 @@ One of the key parts to Spark is the `SparkContext` which if you've done mapredu
 
 In the spark shell you can use the SparkContext `sc`
 
-{% highlight java linenos=table %}
+{% highlight scala %}
 
 scala> val sentence = "The quick brown fox jumps over the lazy dog"
 scala> val words = sc.parallelize(sentence)
