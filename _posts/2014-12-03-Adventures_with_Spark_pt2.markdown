@@ -152,22 +152,22 @@ case class Transaction(date: String, cardNo: String, amount: Double)
 case class Alert(cardNo: String, message: String)
 
 class FraudAlertingService extends Serializable {
+
   def alert(alert: Alert): Unit = {
     println("%s: %s".format(alert.cardNo, alert.message))
   }
-
-  val stream = new StreamingContext("local[2]", "TestObject", Seconds(10))
-  val kafkaMessages: ReceiverInputDStream[(String, String)] =
-    KafkaUtils.createStream(stream, "localhost:2181", "1", Map("kafka_queue" -> 1))
-
-  kafkaMessages.window(Minutes(10), Seconds(10)).foreachRDD(r1 => r1.map(m => {
-    val c = m._2.split("\t")
-    Transaction(c(0), c(1), c(2).toDouble)
-  }).groupBy(t => t.cardNo)
-    .map(t => (t._1, t._2.map(t2 => t2.amount).sum)).filter(m => m._2 > 10000)
-    .foreach(t => alert(Alert(t._1, "Transaction amount exceed"))))
-  
   def start() {
+    val stream = new StreamingContext("local[2]", "TestObject", Seconds(10))
+    val kafkaMessages: ReceiverInputDStream[(String, String)] =
+      KafkaUtils.createStream(stream, "localhost:2181", "1", Map("kafka_queue" -> 1))
+
+    kafkaMessages.window(Minutes(10), Seconds(10)).foreachRDD(r1 => r1.map(m => {
+      val c = m._2.split("\t")
+      Transaction(c(0), c(1), c(2).toDouble)
+    }).groupBy(t => t.cardNo)
+      .map(t => (t._1, t._2.map(t2 => t2.amount).sum)).filter(m => m._2 > 10000)
+      .foreach(t => alert(Alert(t._1, "Transaction amount exceed"))))
+
     stream.start()
     stream.awaitTermination()
   }
@@ -179,11 +179,15 @@ Step 9:
 
 ```scala
 
-object spark_program {
-  val faService = new FraudAlertingService
-  faService.start()
-}
+import org.apache.log4j.Logger
 
+object spark_program {
+  def main(args: Array[String]): Unit = {
+    Logger.getRootLogger.setLevel(org.apache.log4j.Level.ERROR)
+    val faService = new FraudAlertingService
+    faService.start()
+  }
+  
 ```
 So thats it, we'll get a printed alert when the service picks up a card with over £10k in 10 minutes.
 
