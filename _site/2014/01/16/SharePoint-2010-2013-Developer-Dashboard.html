@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/stylesheets/prettyPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css" />
 
     <!--JavaScript-->
     <script src="/javascripts/jquery-1.10.2.js"></script>
@@ -119,14 +120,14 @@ If the DisplayLevel is set to OnDemand for SharePoint 2010 then the behaviour wi
 
 <p><img src="/images/devdash.png" alt="SharePoint Developer Dashboard" title="SharePoint Developer Dashboard"></p>
 
-<h4>Activating in PowerShell</h4>
+<h4 id="activating-in-powershell">Activating in PowerShell</h4>
 
-<div class="highlight"><pre><code class="language-powershell" data-lang="powershell">$d = [Microsoft.SharePoint.Administration.SPWebService]::ContentService.DeveloperDashboardSettings
-$d.DisplayLevel = &#39;OnDemand&#39;
-$d.TraceEnabled = $true
-$d.Update()</code></pre></div>
+<div class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="nv">$d</span> <span class="p">=</span> <span class="no">[Microsoft.SharePoint.Administration.SPWebService]</span><span class="p">::</span><span class="n">ContentService</span><span class="p">.</span><span class="n">DeveloperDashboardSettings</span>
+<span class="nv">$d</span><span class="p">.</span><span class="n">DisplayLevel</span> <span class="p">=</span> <span class="s1">&#39;OnDemand&#39;</span>
+<span class="nv">$d</span><span class="p">.</span><span class="n">TraceEnabled</span> <span class="p">=</span> <span class="nv">$true</span>
+<span class="nv">$d</span><span class="p">.</span><span class="n">Update</span><span class="p">()</span></code></pre></div>
 
-<h4>Activatin using command line and stsadm</h4>
+<h4 id="activatin-using-command-line-and-stsadm">Activatin using command line and stsadm</h4>
 
 <div class="highlight"><pre><code class="language-sh" data-lang="sh">stsadm -o setproperty -pn developer-dashboard -pv OnDemand</code></pre></div>
 

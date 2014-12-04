@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/stylesheets/prettyPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css" />
 
     <!--JavaScript-->
     <script src="/javascripts/jquery-1.10.2.js"></script>
@@ -130,16 +131,16 @@ managed to get our hands on. Its basically standard Red Hat Enterprise Server bu
  initially it&#39;s been difficult to get fdisk to partition the disks correctly. In the end,
  the following steps were all that were needed to get things working and create the 3TB partition.</p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">$ fdisk -l
-# find the correct device name, in my case /dev/hdc
-$ parted /dev/hdc1
-(parted) mklabel gpt
-(parted) unit TB
-(parted) mkpart primary 0 3
-# check the partition
-(parted) p
-(parted) quit
-$ mkfs.ext4 /dev/hdc1</code></pre></div>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nv">$ </span>fdisk -l
+<span class="c"># find the correct device name, in my case /dev/hdc</span>
+<span class="nv">$ </span>parted /dev/hdc1
+<span class="o">(</span>parted<span class="o">)</span> mklabel gpt
+<span class="o">(</span>parted<span class="o">)</span> unit TB
+<span class="o">(</span>parted<span class="o">)</span> mkpart primary <span class="m">0</span> 3
+<span class="c"># check the partition</span>
+<span class="o">(</span>parted<span class="o">)</span> p
+<span class="o">(</span>parted<span class="o">)</span> quit
+<span class="nv">$ </span>mkfs.ext4 /dev/hdc1</code></pre></div>
 
 </div>
 

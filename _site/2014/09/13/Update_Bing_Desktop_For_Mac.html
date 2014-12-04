@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/stylesheets/prettyPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css" />
 
     <!--JavaScript-->
     <script src="/javascripts/jquery-1.10.2.js"></script>
@@ -120,26 +121,43 @@
 
 <p>Now that I&#39;ve moved to a Mac I still want to get the picture, but the application is Windows only - so the script below will do the job for you. I&#39;ve set it to download to the users picture folder <code>~/Pictures/bing-wallpapers</code> just using the current date for the filename.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python">import urllib2
-import json
-from os.path import expanduser
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><code class="language-python" data-lang="python"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</code></pre></div></td><td class="code"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">urllib2</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">expanduser</span>
 
-response = urllib2.urlopen(&quot;http://www.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&amp;mkt=en-US&quot;)
-obj = json.load(response)
+<span class="n">response</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="s">&quot;http://www.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&amp;mkt=en-US&quot;</span><span class="p">)</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
 
-url = (obj[&#39;images&#39;][0][&#39;urlbase&#39;])
-name = (obj[&#39;images&#39;][0][&#39;fullstartdate&#39;])
-url = &#39;http://www.bing.com&#39; + url + &#39;_1920x1080.jpg&#39;
-home = expanduser(&#39;~&#39;)
-path = home +&#39;/Pictures/bing-wallpapers/&#39;+name+&#39;.jpg&#39;
-print (&quot;Downloading %s to %s&quot; % (url, path))
-f = open(path, &#39;w&#39;)
-pic = urllib2.urlopen(url)
-f.write(pic.read())</code></pre></div>
+<span class="n">url</span> <span class="o">=</span> <span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s">&#39;images&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s">&#39;urlbase&#39;</span><span class="p">])</span>
+<span class="n">name</span> <span class="o">=</span> <span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s">&#39;images&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s">&#39;fullstartdate&#39;</span><span class="p">])</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">&#39;http://www.bing.com&#39;</span> <span class="o">+</span> <span class="n">url</span> <span class="o">+</span> <span class="s">&#39;_1920x1080.jpg&#39;</span>
+<span class="n">home</span> <span class="o">=</span> <span class="n">expanduser</span><span class="p">(</span><span class="s">&#39;~&#39;</span><span class="p">)</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">home</span> <span class="o">+</span><span class="s">&#39;/Pictures/bing-wallpapers/&#39;</span><span class="o">+</span><span class="n">name</span><span class="o">+</span><span class="s">&#39;.jpg&#39;</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&quot;Downloading </span><span class="si">%s</span><span class="s"> to </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">path</span><span class="p">))</span>
+<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+<span class="n">pic</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pic</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+</pre></div>
+</td></tr></table>
 
 <p>To run on a schedule, set up a cron job to run the script using <code>crontab -e</code> and add the line </p>
 
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">20  9,12,15,19,22  *      *     *    python ~/Pictures/wallpaper.py</code></pre></div>
+<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="m">20</span>  9,12,15,19,22  *      *     *    python ~/Pictures/wallpaper.py</code></pre></div>
 
 </div>
 

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/stylesheets/prettyPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css" />
 
     <!--JavaScript-->
     <script src="/javascripts/jquery-1.10.2.js"></script>
@@ -123,25 +124,25 @@ In my current play project I decided to find a better way to achieve this and I 
 
 <p>On my ViewModel I have a DelegateCommand called AddTicker which I pass delegates for the Execute and CanExecute,</p>
 
-<div class="highlight"><pre><code class="language-csharp" data-lang="csharp">public ICommand AddTicker {get; private set;}</code></pre></div>
+<div class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="k">public</span> <span class="n">ICommand</span> <span class="n">AddTicker</span> <span class="p">{</span><span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">set</span><span class="p">;}</span></code></pre></div>
 
 <p>to bind to this from a button is easy, and now the same can be said for a Key press using the following XAML;</p>
 
-<div class="highlight"><pre><code class="language-xml" data-lang="xml">&lt;TextBox.InputBindings&gt;
-  &lt;KeyBinding Key=&quot;Return&quot; Command=&quot;{Binding AddTicker}&quot;&gt;&lt;/KeyBinding&gt;
-&lt;/TextBox.InputBindings&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;TextBox.InputBindings&gt;</span>
+  <span class="nt">&lt;KeyBinding</span> <span class="na">Key=</span><span class="s">&quot;Return&quot;</span> <span class="na">Command=</span><span class="s">&quot;{Binding AddTicker}&quot;</span><span class="nt">&gt;&lt;/KeyBinding&gt;</span>
+<span class="nt">&lt;/TextBox.InputBindings&gt;</span></code></pre></div>
 
 <p>As an aside, it took me a while to remember how to get the CanExecuteChanged to fire without some ugly callback mechanism, I knew it involved a registration and it eventually came to me;</p>
 
-<div class="highlight"><pre><code class="language-csharp" data-lang="csharp">CommandManager.RequerySuggested += (s, e) =&gt; RaiseCanExecuteChanged();
+<div class="highlight"><pre><code class="language-csharp" data-lang="csharp"><span class="n">CommandManager</span><span class="p">.</span><span class="n">RequerySuggested</span> <span class="p">+=</span> <span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">RaiseCanExecuteChanged</span><span class="p">();</span>
 
-public void RaiseCanExecuteChanged()
-{
-    if (CanExecuteChanged != null)
-    {
-        CanExecuteChanged(this, EventArgs.Empty);
-    }
-}</code></pre></div>
+<span class="k">public</span> <span class="k">void</span> <span class="nf">RaiseCanExecuteChanged</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">CanExecuteChanged</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">CanExecuteChanged</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="n">EventArgs</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
 
 </div>
 

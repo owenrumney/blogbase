@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/stylesheets/prettyPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css" />
 
     <!--JavaScript-->
     <script src="/javascripts/jquery-1.10.2.js"></script>
@@ -118,25 +119,25 @@
 
 <p>Initially, I solved this using by using JavaScript to set the page to full screen;</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript">window.onload = function () {
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
 
-    //alert(&#39;has loaded&#39;);
-    SP.SOD.executeOrDelayUntilScriptLoaded(goToFullScreen, &#39;sp.js&#39;);
-    // For use within normal web clients 
-    function goToFullScreen() {
-        //alert(&#39;goToFullScreen&#39;);
-        var isiPad = navigator.userAgent.indexOf(&#39;iPad&#39;) != -1;
-        if(isiPad) {
-            setTimeout(goFullScreen, 500);
-        }
-    }
+    <span class="c1">//alert(&#39;has loaded&#39;);</span>
+    <span class="nx">SP</span><span class="p">.</span><span class="nx">SOD</span><span class="p">.</span><span class="nx">executeOrDelayUntilScriptLoaded</span><span class="p">(</span><span class="nx">goToFullScreen</span><span class="p">,</span> <span class="s1">&#39;sp.js&#39;</span><span class="p">);</span>
+    <span class="c1">// For use within normal web clients </span>
+    <span class="kd">function</span> <span class="nx">goToFullScreen</span><span class="p">()</span> <span class="p">{</span>
+        <span class="c1">//alert(&#39;goToFullScreen&#39;);</span>
+        <span class="kd">var</span> <span class="nx">isiPad</span> <span class="o">=</span> <span class="nx">navigator</span><span class="p">.</span><span class="nx">userAgent</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">&#39;iPad&#39;</span><span class="p">)</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">isiPad</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">goFullScreen</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
     
-    function goFullScreen() {
-        SetFullScreenMode(true);
-    }
+    <span class="kd">function</span> <span class="nx">goFullScreen</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">SetFullScreenMode</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+    <span class="p">}</span>
 
-    SP.SOD.notifyScriptLoadedAndExecuteWaitingJobs(&quot;sp.js&quot;);
-};</code></pre></div>
+    <span class="nx">SP</span><span class="p">.</span><span class="nx">SOD</span><span class="p">.</span><span class="nx">notifyScriptLoadedAndExecuteWaitingJobs</span><span class="p">(</span><span class="s2">&quot;sp.js&quot;</span><span class="p">);</span>
+<span class="p">};</span></code></pre></div>
 
 <p>The problem with this approach was the short delay from the page loading to the screen resizing to remove the side bar etc which was undesirable.</p>
 
@@ -144,30 +145,30 @@
 
 <p>To achieve this, I looked at what the SharePoint <code>SetFullScreenMode</code> function actually did. I found that in addition to setting the cookie, it also applies the <code>ms-fullscreenmode</code> css class to the body element, which led me to the following CSS in the master page;</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">&lt;style&gt;
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">style</span><span class="o">&gt;</span>
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    <span class="k">@media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-device-width</span><span class="o">:</span> <span class="nt">768px</span><span class="o">)</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-device-width</span><span class="o">:</span> <span class="nt">1024px</span><span class="o">)</span><span class="p">{</span>
 
-        #navresizerVerticalBar{
-            display:none;
-        }
-        #navresizerHorizontalBar{
-            display:none;
-        }
-        #s4-titlerow {
-            display:none !important;
-        }
-        #sideNavBox {
-            display:none;
-        }
-        #contentBox {
-            margin-left:40px;
-        }
-        #contentBox {
-            margin-left:0px;
-        }
-    }
-&lt;/style&gt;</code></pre></div>
+        <span class="nf">#navresizerVerticalBar</span><span class="p">{</span>
+            <span class="k">display</span><span class="o">:</span><span class="k">none</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nf">#navresizerHorizontalBar</span><span class="p">{</span>
+            <span class="k">display</span><span class="o">:</span><span class="k">none</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nf">#s4-titlerow</span> <span class="p">{</span>
+            <span class="k">display</span><span class="o">:</span><span class="k">none</span> <span class="cp">!important</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nf">#sideNavBox</span> <span class="p">{</span>
+            <span class="k">display</span><span class="o">:</span><span class="k">none</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nf">#contentBox</span> <span class="p">{</span>
+            <span class="k">margin-left</span><span class="o">:</span><span class="m">40px</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nf">#contentBox</span> <span class="p">{</span>
+            <span class="k">margin-left</span><span class="o">:</span><span class="m">0px</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="o">&lt;/</span><span class="nt">style</span><span class="o">&gt;</span></code></pre></div>
 
 </div>
 
