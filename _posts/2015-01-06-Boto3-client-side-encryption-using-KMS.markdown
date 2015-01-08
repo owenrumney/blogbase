@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Client side encryption using Boto3 for AWS
+title: Client side encryption using Boto3 and AWS KMS
 tags: [AWS, boto3, encryption]
 ---
 
