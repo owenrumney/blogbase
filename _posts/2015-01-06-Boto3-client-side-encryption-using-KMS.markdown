@@ -17,6 +17,7 @@ bin/pip install boto3
 
 bin/pip install pycrypto
 ```
+
 ##Encrypting
 
 I'm using [PyCrypto](https://pypi.python.org/pypi/pycrypto/2.6.1) library for no other reason than it appeared in the most results when I was looking for a library.
@@ -52,6 +53,7 @@ def decrypt_file(file_name, key):
     with open(file_name[:-4], 'wb') as fo:
         fo.write(dec)
 ```
+
 
 ##Creating the data key to encrypt
 
