@@ -34,9 +34,7 @@ private MiniDFSCluster cluster;
 private String hdfsURI;
 
 public void setUp() throws Exception {
-
     super.setUp();
-
     Configuration conf = new Configuration();
     File baseDir = new File("./target/hdfs/").getAbsoluteFile();
     FileUtil.fullyDelete(baseDir);
@@ -54,7 +52,9 @@ public void tearDown() throws Exception {
 This makes a cluster available for the tests, in this case its a simple log entry which is going to return the path to the log entry, because this has a guid in I need to just make sure the file is created starting as expected
 
 ```java
-String logentry = new LogEntry().createLogEntry("TestStage", "TestCategory", "/testpath", cluster.getFileSystem());
-String date = new SimpleDateFormat("yyyyMMdd").format(new Date());
-assertTrue(logentry.startsWith(String.format("/testpath/TestStage_%s_", date)));
+public void testCreateLogEntry() throws Exception {
+	String logentry = new LogEntry().createLogEntry("TestStage", "TestCategory", "/testpath", cluster.getFileSystem());
+	String date = new SimpleDateFormat("yyyyMMdd").format(new Date());
+	assertTrue(logentry.startsWith(String.format("/testpath/TestStage_%s_", date)));
+}
 ```
