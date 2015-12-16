@@ -1,6 +1,21 @@
-name: Owen Rumney - Software Developer
-description: Owen Rumney - Software Developer
-url: http://www.owenrumney.co.uk
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+gems: [jekyll-paginate]
+
+
+# Setup
+title:            Owen Rumney
+tagline:          Software Developer
+description:
+url:              http://www.owenrumney.co.uk
+baseurl:          /
+
+author:
+  name:           'Owen Rumney'
+  url:            https://twitter.com/owenrum
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
