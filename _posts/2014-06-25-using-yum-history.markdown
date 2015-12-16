@@ -17,7 +17,7 @@ yum history
 
 which will give the output similar to;
 
-![yum history output](/images/yum_history.png)
+![yum history output]({{ site.baseurl }}images/yum_history.png)
 
 Thankfully, from the dates I was able to work out the point that I had done the install. From this point you can look at a specific item, for example;
 
@@ -27,4 +27,4 @@ yum history info 57
 
 which will return more information about the command
 
-![yum history info for id 57](/images/yum_history_info_57.png)
+![yum history info for id 57]({{ site.baseurl }}images/yum_history_info_57.png)

@@ -4,13 +4,13 @@ title: Update Wallpaper from Bing (OSX)
 tags: [Bing, Wallpaper, OSX, Python]
 ---
 
-I'm not a huge fan of Bing search engine, I've tried to use it but I don't like the format of the search results and I don't think it's particualarly good at finding relevant results either.
+I'm not a huge fan of Bing search engine, I've tried to use it but I don't like the format of the search results and I don't think it's particularly good at finding relevant results either.
 
 I do like Bing wallpapers, and I use Bing Desktop on my Windows laptop to update my desktop to Bings daily wallpaper.
 
 Now that I've moved to a Mac I still want to get the picture, but the application is Windows only - so the script below will do the job for you. I've set it to download to the users picture folder `~/Pictures/bing-wallpapers` just using the current date for the filename.
 
-{% highlight python linenos=table %}
+{% highlight python %}
 import urllib2
 import json
 from os.path import expanduser
@@ -29,9 +29,8 @@ pic = urllib2.urlopen(url)
 f.write(pic.read())
 {% endhighlight %}
 
-To run on a schedule, set up a cron job to run the script using `crontab -e` and add the line 
+To run on a schedule, set up a cron job to run the script at 10am using `crontab -e` and add the line
 
 {% highlight sh %}
-20  9,12,15,19,22  *      *     *    python ~/Pictures/wallpaper.py
+0 10 * * * python ~/Pictures/wallpaper.py
 {% endhighlight %}
-

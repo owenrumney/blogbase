@@ -7,11 +7,11 @@ As part of a project I'm working on I need to create a cross join of users again
 
 For this example I'll use cars and engine/transmission variants.
 
-![Lists](/images/lists.png)
+![Lists]({{ site.baseurl }}images/lists.png)
 
 From these two lists I need to quickly create all possible combinations;
 
-![cross-joined lists](/images/crossjoin.png)
+![cross-joined lists]({{ site.baseurl }}images/crossjoin.png)
 
 I can't find any function that will do what I was so I've created a VBA function that will do it;
 
