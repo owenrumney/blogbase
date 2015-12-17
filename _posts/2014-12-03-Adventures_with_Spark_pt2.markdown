@@ -13,7 +13,7 @@ A credit card company is receiving transaction data from around the world and ne
 
 To simplify this use case, I'm going to pick one fabricated indicator of fraudulent usage and focus on that.
 
-* An alert must be raised if a credit card makes £10,000 of purchases within a 10 minutre sliding window
+* An alert must be raised if a credit card makes £10,000 of purchases within a 10 minute sliding window
 
 For the purposes of this learning project I am going to assume the following this;
 
@@ -88,7 +88,7 @@ class TransactionGenerator(noOfCards: Int) {
   import kafka.javaapi.producer.Producer
   import kafka.producer.{KeyedMessage, ProducerConfig}
   import scala.util.Random
-  
+
   private def generateCardNumber: String = {
     val sb = new StringBuilder(16)
     for (i <- 0 until 16) {
@@ -177,7 +177,7 @@ class FraudAlertingService extends Serializable {
 
 ```
 
-Step 9: 
+Step 9:
 
 ```scala
 
@@ -189,8 +189,8 @@ object spark_program {
     val faService = new FraudAlertingService
     faService.start()
   }
-  
+
 ```
 So thats it, we'll get a printed alert when the service picks up a card with over £10k in 10 minutes.
 
-I know that the code isn't great - I'm still working out Scala, so I will be improving on it where I can. My next post on the subject will be moving to a cloud implememntation running over multiple node cluster to see what I can learn from that.
+I know that the code isn't great - I'm still working out Scala, so I will be improving on it where I can. My next post on the subject will be moving to a cloud implementation running over multiple node cluster to see what I can learn from that.
