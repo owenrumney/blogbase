@@ -30,7 +30,8 @@ border: 0
 
 #search_results {
   color: black;
-    font-size: 0.8em;
+    font-size: 1em;
+    margin-top: 2em;
 }
 
 #search_results a {
@@ -39,6 +40,7 @@ border: 0
 
 #search_results li {
   margin: 10px 5px;
+  text-decoration: none;
 }
 
 .post-index {
