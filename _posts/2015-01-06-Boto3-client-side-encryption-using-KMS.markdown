@@ -33,6 +33,12 @@ from Crypto.Cipher import AES
 def pad(s):
     return s + b"/0" *(AES.block_size - len(s) % AES.block_size)
 
+def encrypt(message, key, key_size=256):
+    message = pad(message)
+    iv = Random.new().read(AES.block_size)
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    return iv + cipher.encrypt(message)
+
 def decrypt(ciphertext, key):
     iv = ciphertext[:AES.block_size]
     cipher = AES.new(key, AES.MODE_CBC, iv)
@@ -83,7 +89,7 @@ if you were going to upload to s3, you might use something like;
 import base64
 
 s3 = boto3.client('s3')
-s3.put_object(Bucket='mybucketname', Body=open('test.txt.enc', 'r'), 
+s3.put_object(Bucket='mybucketname', Body=open('test.txt.enc', 'r'),
 Key='test.txt', Metadata={'encryption-key': base64.b64encode(data_key_ciphered)})
 
 ```
