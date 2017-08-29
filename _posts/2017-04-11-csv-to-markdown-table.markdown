@@ -22,7 +22,7 @@ Creating a new Plugin with Sublime Text 3 is a case of `Tools -> Developer -> Ne
 
 This will create a new templated file in the User section.
 
-``` Python
+``` python
 import sublime
 import sublime_plugin
 

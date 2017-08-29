@@ -6,7 +6,7 @@ title: Previous Posts
 <div class="posts">
   <ul>
 
-  {% for post in site.posts sort_by:title case_sensitive:true %}
+  {% for post in site.posts %}
 <li>
     <h3 class="post-index">
       {{ post.date | date_to_string }} : <a href="{{post.url}}">{{post.title}}</a>
