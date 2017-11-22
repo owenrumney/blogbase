@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monit and M/Monit
+title: Monit
 tags: [Monitoring, Alerting, Linux]
 ---
 There are lots of monitoring and alerting tools out there and I'm sure everyone has there own preference on which they're going to use.
@@ -104,13 +104,3 @@ sudo monit start
 ```
 
 If you make changes to `/etc/monitrc` then you can reload it with `sudo monit reload`
-
-## Installing M/Monit
-You may have noticed that I left the mmonit url commented out in the config above, this is because we haven't installed it yet so we want to keep the logs clean.
-
-Installing m/monit is another simple process. Choose the instance that its going to go on.
-
-```
-# create the folder for mmonit
-
-```
