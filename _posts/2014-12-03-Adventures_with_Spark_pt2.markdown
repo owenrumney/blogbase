@@ -8,7 +8,7 @@ Some time ago, back in September, I wrote a post on [starting my adventures with
 
 On thing that was holding me back was a reasonably real world problem to use as a learning case. I recently came across a question which seemed like a good starting point and for the last few evenings I have been working on a solution.
 
-###The problem
+### The problem
 A credit card company is receiving transaction data from around the world and needs to be able to spot fraudulent usage from the transactions.
 
 To simplify this use case, I'm going to pick one fabricated indicator of fraudulent usage and focus on that.
@@ -22,7 +22,7 @@ For the purposes of this learning project I am going to assume the following thi
 * Once an alert has been raised, a black box system will react to it
 
 
-###The solution
+### The solution
 From the outset, this problem seems perfectly suited to Spark Streaming and with the high volume its going to need a queue to manage the incoming transaction data.
 
 I'm going to create a basic producer to pump transactions into Kafka to simulate the inbound transactions.
