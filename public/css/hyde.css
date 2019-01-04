@@ -34,11 +34,13 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
   }
 }
+
 @media (min-width: 58em) {
   html {
     font-size: 20px;
@@ -56,9 +58,10 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -87,18 +90,21 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-    font-family: "BebasNeueRegular", verdana;
-    font-size: 1.1em;
+  font-family: "BebasNeueRegular", verdana;
+  font-size: 1.1em;
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
+
 .sidebar-nav-item.active {
   font-weight: bold;
 }
@@ -112,9 +118,9 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
+    right: 1rem;
     bottom: 1rem;
-    left:   1rem;
+    left: 1rem;
   }
 }
 
@@ -126,7 +132,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -157,6 +163,7 @@ a.sidebar-nav-item:focus {
     left: auto;
     right: 0;
   }
+
   .layout-reverse .content {
     margin-left: 2rem;
     margin-right: 20rem;
@@ -185,6 +192,7 @@ a.sidebar-nav-item:focus {
 .theme-base-08 .sidebar {
   background-color: #ac4142;
 }
+
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
@@ -194,6 +202,7 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .sidebar {
   background-color: #d28445;
 }
+
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
@@ -203,6 +212,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0a .sidebar {
   background-color: #f4bf75;
 }
+
 .theme-base-0a .content a,
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
@@ -212,6 +222,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0b .sidebar {
   background-color: #90a959;
 }
+
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
@@ -221,6 +232,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0c .sidebar {
   background-color: #75b5aa;
 }
+
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
   color: #75b5aa;
@@ -230,6 +242,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0d .sidebar {
   background-color: #6a9fb5;
 }
+
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
@@ -239,6 +252,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0e .sidebar {
   background-color: #aa759f;
 }
+
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
@@ -248,6 +262,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .sidebar {
   background-color: #8f5536;
 }
+
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;

@@ -3,6 +3,7 @@ layout: post
 title: DIY Plyo box
 tags: [Home gym, Exercise Equipment]
 ---
+
 Since November 2013 I've been working out in my garage with a cross trainer and timed interval training.
 
 I did have a membership to Virgin Active, but between my commute, Open University degree and family I just don't have time to get there. Having the garage I can go straight in there when I get in from work and get up in the morning.

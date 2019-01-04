@@ -36,15 +36,14 @@ My understanding from the docs is that your watch face updates minutely in low p
 
 I'm loading the components programatically so I don't need much in my layouts file
 
-
-``` xml
+```xml
 <layout id="WatchFace">
 </layout>
 ```
 
 Your watch face must extend the `Ui.WatchFace` class
 
-``` java
+```java
 class FirstwatchfaceView extends Ui.WatchFace {
 
   function initialize() {
@@ -104,7 +103,7 @@ Running in IntelliJ for me is a case of Shift+F10 and the Run Configuration load
 In the simulator you can set the levels of activity and change properties of the device such as battery status and GPS etc.
 
 ![Steps in progress]({{ site.baseurl }}images/steps_in_progress.png)
-*Daily steps in progress*
+_Daily steps in progress_
 
 ![Steps in progress]({{ site.baseurl }}images/steps_complete.png)
-*Daily steps in completed*
+_Daily steps in completed_

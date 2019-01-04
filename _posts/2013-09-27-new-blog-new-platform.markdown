@@ -3,6 +3,7 @@ layout: post
 title: New blog, new platform
 tags: [Blogging, platforms, General]
 ---
+
 An interesting chain of events happened last week; [@thecodejunkie](http://twitter.com/thecodejunkie) relaunched his blog, I happen to follow his twitter feed and he happened to mention it.
 
 The chain continued, I followed the link to his blog for a look and read the post there, [I am back and this time I am taking control](http://thecodejunkie.com/2013/09/10/i-am-back-and-this-time-i-am-taking-control/), the content struck a chord about claiming back a blog.

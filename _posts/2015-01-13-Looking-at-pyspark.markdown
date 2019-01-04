@@ -6,7 +6,7 @@ tags: [pyspark, python, spark]
 
 All the work I have been doing with AWS has been using Python, specifically [boto3](http://boto3.readthedocs.org/en/latest/) the rework of boto.
 
-One of the intentions is to limit bandwidth when transferring data to S3 the idea is to send periodic snapshots then daily deltas to merge and form a ***latest*** folder so a diff mechanism is needed - I originally implemented this in Scala as a Spark process but in an effort to settle on one language I'm looking to redo in Python using [pyspark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
+One of the intentions is to limit bandwidth when transferring data to S3 the idea is to send periodic snapshots then daily deltas to merge and form a **_latest_** folder so a diff mechanism is needed - I originally implemented this in Scala as a Spark process but in an effort to settle on one language I'm looking to redo in Python using [pyspark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html)
 
 I'm using my Macbook and to keep things quick and easy I'm going to download a package with Hadoop and Spark then dump it in `/usr/share`
 

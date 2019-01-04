@@ -20,7 +20,7 @@ obj = json.load(response)
 
 url = (obj['images'][0]['urlbase'])
 name = (obj['images'][0]['fullstartdate'])
-url = 'http://www.bing.com' + url + '_1920x1080.jpg'
+url = 'http://www.bing.com' + url + '\_1920x1080.jpg'
 home = expanduser('~')
 path = home +'/Pictures/bing-wallpapers/'+name+'.jpg'
 print ("Downloading %s to %s" % (url, path))
@@ -32,5 +32,5 @@ f.write(pic.read())
 To run on a schedule, set up a cron job to run the script at 10am using `crontab -e` and add the line
 
 {% highlight sh %}
-0 10 * * * python ~/Pictures/wallpaper.py
+0 10 \* \* \* python ~/Pictures/wallpaper.py
 {% endhighlight %}

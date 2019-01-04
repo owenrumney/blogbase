@@ -60,7 +60,6 @@ def decrypt_file(file_name, key):
         fo.write(dec)
 ```
 
-
 ##Creating the data key to encrypt
 
 For each item I want to encrypt I am going to create a new data key - this is a key that is generated in the KMS and the master key for the customer is used to encrypt it.

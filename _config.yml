@@ -1,21 +1,20 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 plugins: [jekyll-paginate]
 
-
 # Setup
-title:            Owen Rumney
-tagline:          Software Developer
+title: Owen Rumney
+tagline: Software Developer
 description:
-url:              http://www.owenrumney.co.uk
-baseurl:          /
+url: http://www.owenrumney.co.uk
+baseurl: /
 
 author:
-  name:           'Owen Rumney'
-  url:            https://twitter.com/owenrum
+  name: "Owen Rumney"
+  url: https://twitter.com/owenrum
 
-paginate:         5
+paginate: 5
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0

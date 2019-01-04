@@ -3,6 +3,7 @@ layout: post
 title: Argument defaults in shell scripts
 tags: [Shell, Bash, Scripting]
 ---
+
 Regularly when writing a shell script I find that I want to be able to pass an argument into the script but only sometimes. For example if I want the script to output to `/tmp` folder for the most part but I'd like the opportunity to select the output myself.
 
 Default arguments can be used in scripts using the following simple syntax

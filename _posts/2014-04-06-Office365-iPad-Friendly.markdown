@@ -3,6 +3,7 @@ title: Office365 and SharePoint iPad Friendly
 layout: post
 tags: [Office365, SharePoint, iPad, CSS]
 ---
+
 I have been doing some work for a company who have a user base who primarily use iPads to access the SharePoint site. There was a requirement to allow those users to easily access the team site without getting their screens filled with the quick launch and the bloated title.
 
 Initially, I solved this using by using JavaScript to set the page to full screen;
@@ -11,22 +12,23 @@ Initially, I solved this using by using JavaScript to set the page to full scree
 
 window.onload = function () {
 
-	//alert('has loaded');
-	SP.SOD.executeOrDelayUntilScriptLoaded(goToFullScreen, 'sp.js');
-	// For use within normal web clients 
-	function goToFullScreen() {
-		//alert('goToFullScreen');
-		var isiPad = navigator.userAgent.indexOf('iPad') != -1;
-		if(isiPad) {
-			setTimeout(goFullScreen, 500);
-		}
-	}
-	
-	function goFullScreen() {
-		SetFullScreenMode(true);
-	}
+    //alert('has loaded');
+    SP.SOD.executeOrDelayUntilScriptLoaded(goToFullScreen, 'sp.js');
+    // For use within normal web clients
+    function goToFullScreen() {
+    	//alert('goToFullScreen');
+    	var isiPad = navigator.userAgent.indexOf('iPad') != -1;
+    	if(isiPad) {
+    		setTimeout(goFullScreen, 500);
+    	}
+    }
 
-	SP.SOD.notifyScriptLoadedAndExecuteWaitingJobs("sp.js");
+    function goFullScreen() {
+    	SetFullScreenMode(true);
+    }
+
+    SP.SOD.notifyScriptLoadedAndExecuteWaitingJobs("sp.js");
+
 };
 
 {% endhighlight %}
@@ -63,6 +65,5 @@ To achieve this, I looked at what the SharePoint `SetFullScreenMode` function ac
 		}
 	}
 </style>
-
 
 {% endhighlight %}

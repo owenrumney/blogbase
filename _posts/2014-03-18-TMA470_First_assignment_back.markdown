@@ -3,6 +3,7 @@ title: TMA470 first assignment returned
 layout: post
 tags: [TMA470, Open University, Tram project]
 ---
+
 I got the result and feedback for the first assignment of the final Open University project today. Its been a long week waiting for it, not least because a significant number of others on the course have been reporting back very low marks.
 
 The difference with TM470 assignments is that they are a little more wooly in what is required. For the past 3 years, the assignments have been a series of questions that need answering in a specified order and within a specified structure. With this course we're expected to guide the project, determine what is relevant for the content of the assignment and hope that we got it right.

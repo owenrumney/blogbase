@@ -10,11 +10,10 @@ Generally I'm already in the command prompt so I was keen to find a way to creat
 
 Since Windows XP, setx has been available as an extra download, and more recently it's included in Windows out of the box - this is the command that I wanted.
 
-To create a persistent STORM_HOME environment variable, use the following command. The /M sets it as a system variable rather than the default user variable. 
+To create a persistent STORM_HOME environment variable, use the following command. The /M sets it as a system variable rather than the default user variable.
 
 {% highlight sh %}
 setx /M STORM_HOME d:\storm-latest
 {% endhighlight %}
 
 There are a number of other options, do `setx /?` to see them.
-

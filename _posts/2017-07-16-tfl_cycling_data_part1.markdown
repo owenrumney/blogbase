@@ -11,9 +11,11 @@ I'm still forming my plan, however loosely I think I want to end up with a visua
 Initially, I'm working on my Mac, but I have a [Databricks community](https://community.cloud.databricks.com/) cluster that I've migrated some of the parts to.
 
 ## Preparing my Local Env
+
 As I said, I'm using my MacBook so I'm going to install a couple of things
 
 ### Install Spark
+
 To install spark, I use `brew`
 
 ```
@@ -21,6 +23,7 @@ brew install spark
 ```
 
 ### Install Jupyter
+
 Installing jupyter notebooks is done with `pip`
 
 ```
@@ -28,6 +31,7 @@ pip install jupyter
 ```
 
 ### Getting some data
+
 I took a single file from the S3 bucket to play with locally, for no particular reason I went with `01aJourneyDataExtract10Jan16-23Jan16.csv`
 
 ```
@@ -35,6 +39,7 @@ aws s3 cp s3://cycling.data.tfl.gov.uk/usage-stats/01aJourneyDataExtract10Jan16-
 ```
 
 ### Starting Up
+
 Run the following commands to get your Jupyter Notebook up and running
 
 ```
@@ -44,9 +49,10 @@ pyspark
 ```
 
 ## Quick Test
+
 Finally a quick test to see how it looks. In the `Jupyter notebook` I can do
 
-``` python
+```python
 data = spark.read.csv('~/datasets/cycling/01aJourneyDataExtract10Jan16-23Jan16.csv', header=True, inferSchema=True)
 data.show()
 ```

@@ -3,6 +3,7 @@ title: Windows to Linux transition
 layout: post
 tags: [General]
 ---
+
 I sat with my kids while they watched Justin Time
 (they love it) on New Years day and I started to clear up the disk in my Dell XPS 13. Its a 256GB SSD and while its
 not tiny it does need a certain about of housekeeping to keep on top of it.
@@ -19,6 +20,3 @@ make the Linux install more permanent on my laptop.
 I have a Shuttle box sitting under my desk which I use with ESXi for virtual machine. I'm not really running nay VMs
 at the moment on there so for now, I've stuck an SSD in there with SharePoint 2013 and Visual Studio 2013 on to do my
 SharePoint work - thats the SharePoint VM sorted out.
-
-
-

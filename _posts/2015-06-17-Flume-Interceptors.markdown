@@ -3,11 +3,12 @@ title: Writing a Flume Interceptor
 layout: post
 tags: [Hadoop, Flume, Java]
 ---
+
 He we are in June, some five months since the last post and I finally have some time and content to sit and write a post.
 
 In April 2013 I started working with Hadoop, the plan was to suck in server application logs to determine who was using what data within the business to make sure it was being correctly accounted for. At the time, Flume seemed like the obvious choice to ingest these files till we realised the timing, format and frequency made Flume a little like over kill. As it happened, it was discounted before I could get my teeth into it.
 
-Two years later and there is a reason to use Flume - high volumes of regularly generated XML files which need ingesting into HDFS for processing - clearly a use case for Flume. 
+Two years later and there is a reason to use Flume - high volumes of regularly generated XML files which need ingesting into HDFS for processing - clearly a use case for Flume.
 
 There are two key requirements for this piece, one that the file name be preserved somehow and that the content be converted to JSON inflight - for this post I'm going to focus only on the former.
 
@@ -51,7 +52,8 @@ public class AbstractFlumeInterceptor implements Interceptor {
     public void close() {    }
 }
 ```
-Now we have this class which wraps up the logic of handling a list of Events we need to create the concrete class called `FilenameInterceptor` 
+
+Now we have this class which wraps up the logic of handling a list of Events we need to create the concrete class called `FilenameInterceptor`
 
 ```java
 @Override

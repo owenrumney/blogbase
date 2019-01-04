@@ -3,9 +3,10 @@ title: Moving to git pages
 layout: post
 tags: [Blogging, platforms, General]
 ---
+
 Not too long ago I [moved my website]({% post_url 2013-09-27-new-blog-new-platform %}) to a static page structure using [Sandra.Snow](https://github.com/sandra/sandra.snow).
 At the time, I was aware that it was based on the idea of [Jekyll](jekyllrb.com) with a Microsoft lilt using Nancy to
- generate the static files.
+generate the static files.
 
 As a long time Microsoft user it made sense for me to use this approach rather than fighting with Windows to get a
 working installation of Ruby and the required dependencies.

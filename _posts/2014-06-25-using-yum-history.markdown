@@ -3,6 +3,7 @@ layout: post
 title: Using yum history
 tags: [Linux, Yum]
 ---
+
 I have been setting up a couple of Red Hat boxes and I need to have a cron task to mount a network share from an AD domain, copy the files then dismount.
 
 In the past I have successfully accessed the network shares using a given set of credentials but I could not get it to work after install `samba-client` and `samba-common`.

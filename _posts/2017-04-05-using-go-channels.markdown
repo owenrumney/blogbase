@@ -3,11 +3,12 @@ layout: post
 title: Go routines and channels
 tags: [Go, Golang, Coding]
 ---
+
 I'm having a bit of a dabble with Go, as a by product of working with Elastic Search beats.
 
 One thing I've been looking at today is the channels to allow two `go` routines to communicate with each other and I came up with a fairly cheesy way to play with implementing them.
 
-``` go
+```go
 package main
 
 import "fmt"
@@ -57,4 +58,5 @@ ping .... pong
 ping .... pong
 ping .... pong
 ```
+
 There you go. Almost certainly not the best Go ever written, but a start.

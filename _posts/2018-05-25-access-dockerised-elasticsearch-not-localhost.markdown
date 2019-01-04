@@ -3,6 +3,7 @@ layout: post
 title: Allow connection to dockerised elasticsearch other than localhost
 tags: [Docker, ElasticSearch, Kubernetes, Minikube]
 ---
+
 We need to access ElasticSearch in a namespace within minikube and the other Pods can't connect to 9200. It turns out that from the box its limited to localhost and the `network.host` property needs updating.
 
 Setting `network.host` in the `elasticsearch.yml` configuration file on a docker container will put the instance into "Production" mode which will invoke a load of limit checks including, but not limited to the number of threads allocated for a user.

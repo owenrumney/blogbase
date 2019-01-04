@@ -13,10 +13,10 @@ My skills can be seen in this nifty [Wordle](http://www.wordle.net/create)
 
 You can see what else I'm up to at the following places:
 
-* [LinkedIn](https://uk.linkedin.com/in/owenrumney)
-* [GitHub](https://github.com/owenrumney)
-* [Twitter](https://twitter.com/owenrum)
-* [My CV](https://www.owenrumney.co.uk/Owen_Rumney.pdf)
+- [LinkedIn](https://uk.linkedin.com/in/owenrumney)
+- [GitHub](https://github.com/owenrumney)
+- [Twitter](https://twitter.com/owenrum)
+- [My CV](https://www.owenrumney.co.uk/Owen_Rumney.pdf)
 
 Thanks for reading!
 

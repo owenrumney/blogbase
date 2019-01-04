@@ -17,7 +17,7 @@ For now I just extracted it to a folder in Downloads;
 To start the Spark shell
 
 {% highlight sh %}
-$ cd ~/Downloads/spark-1.0.2-bin-hadoop2/bin
+\$ cd ~/Downloads/spark-1.0.2-bin-hadoop2/bin
 ./spark-shell
 {% endhighlight %}
 
@@ -30,7 +30,7 @@ In the spark shell you can use the SparkContext `sc`
 scala> val sentence = "The quick brown fox jumps over the lazy dog"
 scala> val words = sc.parallelize(sentence)
 scala> words.count() // should return 9  
-scala> words.filter(_.toLowerCase() == "the").count() // should return 2
+scala> words.filter(\_.toLowerCase() == "the").count() // should return 2
 
 {% endhighlight %}
 

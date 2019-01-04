@@ -3,6 +3,7 @@ layout: post
 title: Monit
 tags: [Monitoring, Alerting, Linux]
 ---
+
 There are lots of monitoring and alerting tools out there and I'm sure everyone has there own preference on which they're going to use.
 
 We have selected [monit](http://mmonit.com/monit/) for simple monitoring of disk space, tunnels and processes because its simple to setup and does exactly what we're asking it to do.
@@ -12,6 +13,7 @@ I particularly like DSL for defining which checks you want to perform.
 As we're running monit on multiple machines, we're also evaluating [m/monit](http//mmonit.com) which centralises the monitoring of all the separate instances in a nice dashboard.
 
 ## Installing Monit
+
 Our servers are Red Hat so we're not using `yum install monit` which will get you stated on on a Fedora machine. Equally the downloads page on the monit site will give you the quick and easy installation for other common platforms.
 
 ```
@@ -98,7 +100,9 @@ check network eth0 with interface eth0
 ```
 
 ### Starting Monit
+
 To start monit user
+
 ```
 sudo monit start
 ```

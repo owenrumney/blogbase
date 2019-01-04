@@ -3,6 +3,7 @@ layout: post
 title: rhn_register crashes while starting
 tags: [Red Hat, Linux, Work Stuff]
 ---
+
 I'm setting up a tactical farm of Linux servers on some desktops till we can get the permanent kit installed in the data center.
 
 The new servers are running on trader desktops so they're reasonably good kit. Too satisfy security requirements we need to use a customised build of Red Hat 5 and I'm on the last of the 6 machines.

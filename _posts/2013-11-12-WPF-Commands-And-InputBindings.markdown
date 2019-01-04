@@ -3,6 +3,7 @@ layout: post
 title: WPF Commands and Events with MVVM
 tags: [WPF Commands, Input Bindings, Windows Programming]
 ---
+
 I have been doing some revision on my WPF, particularly around ModelView-View-Model pattern. One thing that I've always found a bit difficult to get right is the handling of events on the window and getting them back to the view model.
 
 I personally believe that the goal of a completely empty code behind should be a best efforts approach rather than mandatory, sometime there is a need for purely UI related code and this, in my view is the correct place.
@@ -20,7 +21,7 @@ to bind to this from a button is easy, and now the same can be said for a Key pr
 
 {% highlight xml  %}
 <TextBox.InputBindings>
-  <KeyBinding Key="Return" Command="{Binding AddTicker}"></KeyBinding>
+<KeyBinding Key="Return" Command="{Binding AddTicker}"></KeyBinding>
 </TextBox.InputBindings>
 {% endhighlight %}
 
@@ -31,9 +32,9 @@ CommandManager.RequerySuggested += (s, e) => RaiseCanExecuteChanged();
 
 public void RaiseCanExecuteChanged()
 {
-    if (CanExecuteChanged != null)
-    {
-        CanExecuteChanged(this, EventArgs.Empty);
-    }
+if (CanExecuteChanged != null)
+{
+CanExecuteChanged(this, EventArgs.Empty);
+}
 }
 {% endhighlight %}

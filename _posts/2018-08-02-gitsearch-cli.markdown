@@ -33,7 +33,7 @@ git-search --scope=users owenrumney
 This will yield the following results;
 
 | username   | url                           |
-|:-----------|:------------------------------|
+| :--------- | :---------------------------- |
 | owenrumney | https://github.com/owenrumney |
 
 ### Searching for repositories
@@ -44,12 +44,12 @@ git-search -l=scala -u=apache spark
 ```
 This will give the following result;
 
-| name          | owner   | url                                     |
-|:--------------|:--------|:----------------------------------------|
-| fluo-muchos   | apache  | https://github.com/apache/fluo-muchos   |
-| predictionio  | apache  | https://github.com/apache/predictionio  |
-| spark         | apache  | https://github.com/apache/spark         |
-| spark-website | apache  | https://github.com/apache/spark-website |
+| name          | owner  | url                                     |
+| :------------ | :----- | :-------------------------------------- |
+| fluo-muchos   | apache | https://github.com/apache/fluo-muchos   |
+| predictionio  | apache | https://github.com/apache/predictionio  |
+| spark         | apache | https://github.com/apache/spark         |
+| spark-website | apache | https://github.com/apache/spark-website |
 
 If you want to only return results where the keyword is in the name, you can use the `--nameonly` flag
 
@@ -58,10 +58,10 @@ git-search -l=scala -u=apache spark --nameonly
 ```
 This will give the following result;
 
-| name          | owner   | url                                     |
-|:--------------|:--------|:----------------------------------------|
-| spark         | apache  | https://github.com/apache/spark         |
-| spark-website | apache  | https://github.com/apache/spark-website |
+| name          | owner  | url                                     |
+| :------------ | :----- | :-------------------------------------- |
+| spark         | apache | https://github.com/apache/spark         |
+| spark-website | apache | https://github.com/apache/spark-website |
 
 ## TODO
 - [ ] Add date based options for search criteria
