@@ -4,7 +4,7 @@ title: Adventures with Spark, part two
 tags: [Spark, Scala]
 ---
 
-Some time ago, back in September, I wrote a post on [starting my adventures with Spark](http://www.owenrumney.co.uk/2014/09/14/Adventures_with_Spark_pt1.html) but didn't progress things very far.
+Some time ago, back in September, I wrote a post on [starting my adventures with Spark]({% post_url 2014-09-14-Adventures_with_Spark_pt1 %}) but didn't progress things very far.
 
 On thing that was holding me back was a reasonably real world problem to use as a learning case. I recently came across a question which seemed like a good starting point and for the last few evenings I have been working on a solution.
 

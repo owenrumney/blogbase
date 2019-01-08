@@ -65,25 +65,25 @@ val hBaseRDD = spark.newAPIHadoopRDD(config,
 
 Thats all we need, we can now run our job. Its contrived, but consider the following table.
 
-| key              | d:creditLimit | d:currentBalance |
+| key              | d:cl | d:cb |
 | ---------------- | ------------- | ---------------- |
 | 1234678838472938 | 1000.00       | 432.00           |
 | 9842897418374027 | 100.00        | 95.70            |
 | 7880927412346013 | 600.00        | 523.30           |
 
-In our table, we have a key with the credit card number and a `ColumnFamily` of `d:` which holds the `column_qualifiers` `creditLimit` and `currentBalance`.
+In our table, we have a key with the credit card number and a `ColumnFamily` of `d:` which holds the `column_qualifiers` `cl (credit limit)` and `cb (current balance)`.
 
 For this job, I want to know all the accounts which are at >90% of their available credit.
 
 ```csharp
-case class Account(ccNumber: String, creditLimit: Double, balance: Double)
+case class Account(ccNumber: String, limit: Double, balance: Double)
 
 val accountsRDD = hBaseRDD.map(r => {
     val key = Bytes.toStringBinary(t._1.get())
     val result = t._2.getFamilyMap("d")
-    val creditLimit = Bytes.toDouble(result.get("creditLimit"))
-    val balance = Bytes.toDouble(result.get("balance"))
-    Account(key, creditLimit, balance)
+    val limit = Bytes.toDouble(result.get("cl"))
+    val balance = Bytes.toDouble(result.get("cb"))
+    Account(key, limit, balance)
 })
 ```
 
@@ -91,7 +91,7 @@ That gives us a nicely typed RDD of Accounts we can use to do our filtering on.
 
 ```csharp
 val eligibleAccountsRDD = accountRDD.filter(a => {
-    (a.balance / a.creditLimit) > 0.9
+    (a.balance / a.limit) > 0.9
 })
 ```
 

@@ -9,6 +9,7 @@ tagline: Software Developer
 description:
 url: http://www.owenrumney.co.uk
 baseurl: /
+permalink: pretty
 
 author:
   name: "Owen Rumney"
