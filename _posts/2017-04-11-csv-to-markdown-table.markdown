@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSV to Markdown table - Sublime Package
-tags: [Python, Programming, Sublime Text]
+tags: [python, programming, sublime text]
 ---
 
 Now I'm writing almost all documentation in markdown then using Pandoc to convert it to Mediawiki or docx as required, I needed to finds an easier way to quickly create my tables.

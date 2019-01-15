@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WPF Commands and Events with MVVM
-tags: [WPF Commands, Input Bindings, Windows Programming]
+tags: [wpf commands, input bindings, windows programming]
 ---
 
 I have been doing some revision on my WPF, particularly around ModelView-View-Model pattern. One thing that I've always found a bit difficult to get right is the handling of events on the window and getting them back to the view model.

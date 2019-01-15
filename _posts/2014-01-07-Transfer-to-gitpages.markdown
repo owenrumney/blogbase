@@ -1,7 +1,7 @@
 ---
 title: Moving to git pages
 layout: post
-tags: [Blogging, platforms, General]
+tags: [blogging, platforms, general]
 ---
 
 Not too long ago I [moved my website]({% post_url 2013-09-27-new-blog-new-platform %}) to a static page structure using [Sandra.Snow](https://github.com/sandra/sandra.snow).

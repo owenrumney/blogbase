@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replacing an incorrect git commit message
-tags: [Git, Programming]
+tags: [git, programming]
 ---
 
 If you have committed some code to git (or in the current case, BitBucket) and you have made an error in the commit message (in the current case, referenced the wrong Jira ticket), all is not lost.

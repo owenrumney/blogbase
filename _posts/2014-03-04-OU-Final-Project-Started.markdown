@@ -1,7 +1,7 @@
 ---
 title: OU Final project finally started
 layout: post
-tags: [TMA470, Open University, Final Project]
+tags: [tma470, open university, final project]
 ---
 
 At the eleventh hour I finally settled on the project that I am going to be working on for the next 8 months. I had previously intended to work on a project that would allow me to play with some javascript graph layout and visualisation libraries. Unfortunately this intention didn't have enough of a clear direction to make it a solid proposition for a successful project.

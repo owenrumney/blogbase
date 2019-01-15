@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using AWS Simple Email Service with Oozie in Cloudera
-tags: [AWS, Cloudera, Linux]
+tags: [aws, cloudera, linux]
 ---
 
 I've moved to a new role where I will be doing a lot more "devops" type work which hopefully comes with more interesting subjects to start writing about.

@@ -1,7 +1,7 @@
 ---
 title: Scala eXchange 2015 - Embracing the community
 layout: post
-tags: [Scala, Community, Conference]
+tags: [scala, community, conference]
 ---
 
 Today I'm at my first [Scala eXchange](https://skillsmatter.com/conferences/6862-scala-exchange-2015) conference - the 5th annual one to be precise.

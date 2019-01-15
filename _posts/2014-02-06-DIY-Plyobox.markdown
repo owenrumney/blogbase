@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DIY Plyo box
-tags: [Home gym, Exercise Equipment]
+tags: [home gym, exercise equipment]
 ---
 
 Since November 2013 I've been working out in my garage with a cross trainer and timed interval training.

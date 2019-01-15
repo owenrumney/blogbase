@@ -1,7 +1,7 @@
 ---
 title: SharePoint 2010/2013 Developer Dashboard
 layout: post
-tags: [SharePoint]
+tags: [sharepoint]
 ---
 
 The SharePoint developer dashboard, when switched on, will render at the bottom of the page in SharePoint 2010 and appear as an icon in the top right hand corner of SharePoint 2013.

@@ -1,7 +1,7 @@
 # Dependencies
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 # Setup
 title: Owen Rumney

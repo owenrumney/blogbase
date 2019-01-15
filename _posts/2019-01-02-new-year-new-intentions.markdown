@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Year, New Intentions
-tags: [General, AWS]
+tags: [general, aws]
 ---
 
 Last year I managed 3 blog posts so this year my aim is to beat that by at the very least doubling it.

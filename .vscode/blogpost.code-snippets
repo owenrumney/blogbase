@@ -1,0 +1,19 @@
+{
+	"Blog_Post_Header": {
+		"prefix": "post",
+		"body": [
+			"---",
+			"layout: post",
+			"title: title here",
+			"tags: [comma separated]",
+			"---"
+		]
+	},
+		"Blog_Code_Section": {
+			"prefix": "code",
+			"body": [
+				"```${1|shell,python,javascript,csharp,sql|}",
+				"```"
+			]
+		}
+}

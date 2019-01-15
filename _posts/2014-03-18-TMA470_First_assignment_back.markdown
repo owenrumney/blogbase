@@ -1,7 +1,7 @@
 ---
 title: TMA470 first assignment returned
 layout: post
-tags: [TMA470, Open University, Tram project]
+tags: [tma470, open university, tram project]
 ---
 
 I got the result and feedback for the first assignment of the final Open University project today. Its been a long week waiting for it, not least because a significant number of others on the course have been reporting back very low marks.

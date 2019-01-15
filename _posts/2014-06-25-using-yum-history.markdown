@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using yum history
-tags: [Linux, Yum]
+tags: [linux, yum]
 ---
 
 I have been setting up a couple of Red Hat boxes and I need to have a cron task to mount a network share from an AD domain, copy the files then dismount.

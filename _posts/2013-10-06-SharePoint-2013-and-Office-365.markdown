@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [SharePoint, Office 365]
+tags: [sharepoint, office 365]
 title: SharePoint and Office 365
 ---
 

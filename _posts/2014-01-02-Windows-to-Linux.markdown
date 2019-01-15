@@ -1,7 +1,7 @@
 ---
 title: Windows to Linux transition
 layout: post
-tags: [General]
+tags: [general]
 ---
 
 I sat with my kids while they watched Justin Time

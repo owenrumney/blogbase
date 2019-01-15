@@ -1,6 +1,6 @@
 ---
 title: Refresh Linux mounts after changes made to /etc/fstab
-tags: [Linux, fstab, hardware]
+tags: [linux, fstab, hardware]
 layout: post
 ---
 

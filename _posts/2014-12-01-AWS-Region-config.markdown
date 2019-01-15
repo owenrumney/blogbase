@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AWS HTTPSConnectionPool max retries exceeded
-tags: [AWS, awscli]
+tags: [aws, awscli]
 ---
 
 I'm working with a new AWS account and I am moving to testing Boto3 to use the KMS service. I needed to make sure that the AWS account and secret keys were updated so ran `aws configure` to quickly update them.

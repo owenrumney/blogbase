@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wordle Interpretation of CV
-tags: [Skills, CV, Visualisation]
+tags: [skills, cv, visualisation]
 ---
 
 Today someone showed me a handle word cloud tool called [wordle](http://www.wordle.net/create).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TFL Cycling DataSet - Part 2
-tags: [Python, Programming, Spark, Learning, DataSets]
+tags: [python, programming, spark, learning, datasets]
 ---
 
 Following on from [part 1]({% post_url 2017-07-16-tfl_cycling_data_part1 %}) of this mini series. I've got my local environment ready to go and I have pulled down some test data to work with.

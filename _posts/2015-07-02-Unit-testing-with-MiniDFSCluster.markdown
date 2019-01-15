@@ -1,7 +1,7 @@
 ---
 title: Unit testing HDFS code
 layout: post
-tags: [Hadoop, Testing, Java]
+tags: [hadoop, testing, java]
 ---
 
 I need to write a couple of unit tests for some code to add a log entry into HDFS but I don't want to have to rely on having access to full blown HDFS cluster or a local install to achieve this.

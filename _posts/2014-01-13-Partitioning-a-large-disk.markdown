@@ -1,6 +1,6 @@
 ---
 title: Partitioning a large disk in RedHat
-tags: [Linux, Red Hat, Infrastructure, Hardware]
+tags: [linux, red hat, infrastructure, hardware]
 layout: post
 ---
 

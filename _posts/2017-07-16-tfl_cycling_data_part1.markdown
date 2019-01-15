@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TFL Cycling DataSet - Part 1
-tags: [Python, Programming, Spark, Learning, DataSets]
+tags: [python, programming, spark, learning, datasets]
 ---
 
 I'm hoping this will be a reasonably accurate account of my play with the [TfL Cycling DataSets](http://cycling.data.tfl.gov.uk).

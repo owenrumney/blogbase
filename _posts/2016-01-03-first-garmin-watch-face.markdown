@@ -1,7 +1,7 @@
 ---
 title: First go at creating a Garmin watch face
 layout: post
-tags: [Monkey C, Garmin, Coding]
+tags: [monkey c, garmin, coding]
 ---
 
 For a while Garmin have been adding "wearable technology" functionality to their watches - notifications from the phone etc. I got a Garmin Fenix 3 for Christmas and had a play with the vast number of watch faces and widgets that were available.

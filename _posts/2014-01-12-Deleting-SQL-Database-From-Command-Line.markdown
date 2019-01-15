@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deleting SQL database from the command line
-tags: [SQL, SQLCMD, SharePoint]
+tags: [sql, sqlcmd, sharepoint]
 ---
 
 For one reason or another, my SharePoint 2013 development environment became corrupt and the quickest way to get it up and running again was to start a fresh with SharePoint.

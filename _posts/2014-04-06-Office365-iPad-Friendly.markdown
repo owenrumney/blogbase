@@ -1,7 +1,7 @@
 ---
 title: Office365 and SharePoint iPad Friendly
 layout: post
-tags: [Office365, SharePoint, iPad, CSS]
+tags: [office 365, sharepoint, ipad, css]
 ---
 
 I have been doing some work for a company who have a user base who primarily use iPads to access the SharePoint site. There was a requirement to allow those users to easily access the team site without getting their screens filled with the quick launch and the bloated title.

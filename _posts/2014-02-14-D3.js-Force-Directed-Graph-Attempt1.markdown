@@ -1,7 +1,7 @@
 ---
 title: First attempt at a Force Directed Graph
 layout: post
-tags: [d3.js, javascript, Open University, TM470, visualisation]
+tags: [d3.js, javascript, open university, tm470, visualisation]
 ---
 
 For the final project of my open university degree I am looking at creating an application to bring together a proprietary dataset of information about available workers and cross it with social media data.

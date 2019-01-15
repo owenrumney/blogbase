@@ -1,7 +1,7 @@
 ---
 title: Writing a Flume Interceptor
 layout: post
-tags: [Hadoop, Flume, Java]
+tags: [hadoop, flume, java]
 ---
 
 He we are in June, some five months since the last post and I finally have some time and content to sit and write a post.

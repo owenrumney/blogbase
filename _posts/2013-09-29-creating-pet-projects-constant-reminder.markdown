@@ -1,6 +1,6 @@
 ---
 layout: post
-Tags: [Pet Projects, Azure]
+tags: [pet projects, azure]
 title: Creating pet projects and the Constant Reminder
 ---
 

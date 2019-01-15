@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Update Wallpaper from Bing (OSX)
-tags: [Bing, Wallpaper, OSX, Python]
+tags: [bing, wallpaper, osx, python]
 ---
 
 I'm not a huge fan of Bing search engine, I've tried to use it but I don't like the format of the search results and I don't think it's particularly good at finding relevant results either.

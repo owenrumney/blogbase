@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bing of the Day revisited
-tags: [AWS, Bing, Python]
+tags: [aws, bing, python]
 ---
 
 Back in 2014 I wrote an [article about borrowing the bing wallpaper]({% post_url 2014-09-13-Update_Bing_Desktop_For_Mac %}) to use on my Macbook. Not long after that, I found that I was missing the odd "Bing of the Day" so I decided to run it in the cloud. 

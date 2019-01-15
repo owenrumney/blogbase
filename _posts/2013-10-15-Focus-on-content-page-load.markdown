@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [SharePoint, Office 365, Javascript, SharePoint]
+tags: [sharepoint, office 365, javascript, sharepoint]
 title: Focus on content on page load
 ---
 

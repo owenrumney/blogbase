@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing gitsearch-cli
-tags: [Python3, GitHub, PyPi]
+tags: [python3, github, pypi]
 ---
 The first version of gitsearch-cli is now available. This command line interface allows you to search github repositories and users using keywords and (currently) a handful of additional criteria.
 

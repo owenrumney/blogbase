@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating test data with Faker
-tags: [Python, Faker]
+tags: [python, faker]
 ---
 Python is one of those languages where if you can concieve it, there is probably already a library for it. 
 

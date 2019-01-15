@@ -1,7 +1,7 @@
 ---
 layout: post
 title: rhn_register crashes while starting
-tags: [Red Hat, Linux, Work Stuff]
+tags: [red hat, linux, work stuff]
 ---
 
 I'm setting up a tactical farm of Linux servers on some desktops till we can get the permanent kit installed in the data center.

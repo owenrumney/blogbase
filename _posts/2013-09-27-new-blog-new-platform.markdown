@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New blog, new platform
-tags: [Blogging, platforms, General]
+tags: [blogging, platforms, general]
 ---
 
 An interesting chain of events happened last week; [@thecodejunkie](http://twitter.com/thecodejunkie) relaunched his blog, I happen to follow his twitter feed and he happened to mention it.
