@@ -47,6 +47,12 @@ def refresh_external_credentials():
     }
 ```
 
+There are a few config entries here.
+
+* `credential_file_path` is the location of the credential file that is getting externally updated
+* `profile_name` is the profile in the credential file that you want to use
+* `refresh_minutes` is the time before the AWS credential will expire and the `refresh_external_credentials()` function will get called.
+
 We now need to create the credential object for a session which will then be able to auto refresh.
 
 ```python
@@ -62,10 +68,14 @@ Going back to the original code, the new `session_credentials` can be plugged in
 ```python
 import boto3
 
+# ideally taken from config
+region = 'eu-west-1'
+incoming_queue_name = 'incoming_queue'
+
 session = get_session()
 session._credentials = session_credentials
 autorefresh_session = boto3.Session(botocore_session=session)
 
-queues['incoming'] = autorefresh_session.resource('sqs', region).get_queue_by_name(QueueName='incoming_queue')
+queues['incoming'] = autorefresh_session.resource('sqs', region).get_queue_by_name(QueueName=incoming_queue_name)
 
 ```
