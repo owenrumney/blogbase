@@ -53,7 +53,7 @@ user@DPE.INTERNAL: kvno = 1
 
 The `-e` refers to the enctype mentioned earlier. This needs to be one of those that are permitted in your `krb5.conf` file so you're using an accepted and appropriate encryption.
 
- ## Testing the Key
+## Testing the Key
 We can now test the keytab for successfully login
 
 ```shell
