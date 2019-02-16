@@ -1,6 +1,7 @@
 ---
 title: OU Final project finally started
 layout: post
+author: Owen Rumney
 tags: [tma470, open university, final project]
 ---
 

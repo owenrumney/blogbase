@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Wordle Interpretation of CV
 tags: [skills, cv, visualisation]
 ---

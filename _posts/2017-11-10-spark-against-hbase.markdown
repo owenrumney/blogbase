@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Running Spark against HBase
 tags: [programming, spark, hbase, scala]
 ---

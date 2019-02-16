@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Git hangs while unpacking objects (Windows)
 tags: [windows, git]
 ---

@@ -1,7 +1,9 @@
 ---
 layout: post
+author: Owen Rumney
 title: RefreshingAWSCredentials with .NET
-tags: [aws, c#, csharp, yikes, .net aws sdk]
+summary: Steps required to handle refreshing AWS credentials when using the AWS .NET SDK
+tags: [aws, c#, csharp, .net aws sdk]
 ---
 **NOTE: I haven't really written any C# in about 5 years, this code may be a bit crap and using old techniques**
 

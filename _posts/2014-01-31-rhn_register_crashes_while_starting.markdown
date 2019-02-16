@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: rhn_register crashes while starting
 tags: [red hat, linux, work stuff]
 ---

@@ -1,6 +1,7 @@
 ---
 title: First go at creating a Garmin watch face
 layout: post
+author: Owen Rumney
 tags: [monkey c, garmin, coding]
 ---
 

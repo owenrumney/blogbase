@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 tags: [pet projects, azure]
 title: Creating pet projects and the Constant Reminder
 ---

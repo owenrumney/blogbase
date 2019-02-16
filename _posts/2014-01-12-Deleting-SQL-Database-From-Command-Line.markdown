@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Deleting SQL database from the command line
 tags: [sql, sqlcmd, sharepoint]
 ---

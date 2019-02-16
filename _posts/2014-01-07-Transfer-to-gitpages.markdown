@@ -1,6 +1,7 @@
 ---
 title: Moving to git pages
 layout: post
+author: Owen Rumney
 tags: [blogging, platforms, general]
 ---
 

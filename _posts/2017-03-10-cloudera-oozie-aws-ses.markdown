@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Using AWS Simple Email Service with Oozie in Cloudera
 tags: [aws, cloudera, linux]
 ---

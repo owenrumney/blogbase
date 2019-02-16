@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Adventures with Spark, part one
 tags: [spark, scala]
 ---

@@ -1,6 +1,7 @@
 ---
 title: Windows to Linux transition
 layout: post
+author: Owen Rumney
 tags: [general]
 ---
 

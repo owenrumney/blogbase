@@ -1,6 +1,7 @@
 ---
 title: First attempt at a Force Directed Graph
 layout: post
+author: Owen Rumney
 tags: [d3.js, javascript, open university, tm470, visualisation]
 ---
 

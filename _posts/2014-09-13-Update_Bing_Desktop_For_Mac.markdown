@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Update Wallpaper from Bing (OSX)
 tags: [bing, wallpaper, osx, python]
 ---

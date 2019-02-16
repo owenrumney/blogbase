@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: New blog, new platform
 tags: [blogging, platforms, general]
 ---

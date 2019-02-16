@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Quick introduction to pyspark
 tags: [pyspark, python, spark]
 ---

@@ -1,6 +1,7 @@
 ---
 title: TMA470 first assignment returned
 layout: post
+author: Owen Rumney
 tags: [tma470, open university, tram project]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Scala eXchange 2015 - Embracing the community
 layout: post
+author: Owen Rumney
 tags: [scala, community, conference]
 ---
 

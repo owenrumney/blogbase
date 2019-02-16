@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Using yum history
 tags: [linux, yum]
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Argument defaults in shell scripts
 tags: [shell, bash, scripting]
 ---

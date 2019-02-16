@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: WPF Commands and Events with MVVM
 tags: [wpf commands, input bindings, windows programming]
 ---

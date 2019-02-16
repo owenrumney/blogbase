@@ -2,6 +2,7 @@
 title: Refresh Linux mounts after changes made to /etc/fstab
 tags: [linux, fstab, hardware]
 layout: post
+author: Owen Rumney
 ---
 
 When an update has been made to /etc/fstab the changes won't immediately and automatically take effect so there is a need to refresh them manually.

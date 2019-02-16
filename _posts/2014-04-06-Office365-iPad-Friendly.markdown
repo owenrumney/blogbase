@@ -1,6 +1,7 @@
 ---
 title: Office365 and SharePoint iPad Friendly
 layout: post
+author: Owen Rumney
 tags: [office 365, sharepoint, ipad, css]
 ---
 

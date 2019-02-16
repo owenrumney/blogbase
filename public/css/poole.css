@@ -416,6 +416,9 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+.post hr {
+  border: 1px solid #515151;
+}
 
 /*
  * Pagination

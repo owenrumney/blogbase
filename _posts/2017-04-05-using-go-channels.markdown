@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Go routines and channels
 tags: [go, golang, coding]
 ---

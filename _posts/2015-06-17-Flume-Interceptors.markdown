@@ -1,6 +1,7 @@
 ---
 title: Writing a Flume Interceptor
 layout: post
+author: Owen Rumney
 tags: [hadoop, flume, java]
 ---
 

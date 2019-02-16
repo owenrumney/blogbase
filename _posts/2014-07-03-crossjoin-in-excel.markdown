@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Cross Join Columns in Excel
 tags: Excel, VBA
 ---

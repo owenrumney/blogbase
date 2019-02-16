@@ -1,6 +1,8 @@
 ---
 layout: post
+author: Owen Rumney
 title: AWS EC2 Comparison
+summary: Link to the comparision tool for comparing EC2 instance types
 tags: [aws, websites, tools]
 ---
 When working with EC2 instances, you really want to be right sizing the instance from the outset. With Amazon regularly bringing out new classes of instance it is hard to keep track of what is available now and what the characteristics are.

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: AWS HTTPSConnectionPool max retries exceeded
 tags: [aws, awscli]
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Creating environment variables from the command line (Windows)
 tags: [windows, system, configuration]
 ---

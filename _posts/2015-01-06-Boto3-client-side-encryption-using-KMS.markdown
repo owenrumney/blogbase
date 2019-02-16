@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Client side encryption using Boto3 and AWS KMS
 tags: [aws, boto3, encryption]
 ---

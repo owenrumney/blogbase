@@ -2,6 +2,7 @@
 title: Partitioning a large disk in RedHat
 tags: [linux, red hat, infrastructure, hardware]
 layout: post
+author: Owen Rumney
 ---
 
 For the project I am currently working on, we have an order for a Hadoop Appliance from our supplier to be placed in

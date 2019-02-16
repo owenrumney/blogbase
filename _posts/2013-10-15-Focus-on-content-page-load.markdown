@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 tags: [sharepoint, office 365, javascript, sharepoint]
 title: Focus on content on page load
 ---

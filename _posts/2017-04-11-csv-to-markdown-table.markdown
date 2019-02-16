@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: CSV to Markdown table - Sublime Package
 tags: [python, programming, sublime text]
 ---

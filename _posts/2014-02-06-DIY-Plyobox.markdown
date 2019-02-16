@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: DIY Plyo box
 tags: [home gym, exercise equipment]
 ---

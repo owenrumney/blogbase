@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: SFTP Connection Closed - password expired?
 tags: [linux, sftp, users]
 ---

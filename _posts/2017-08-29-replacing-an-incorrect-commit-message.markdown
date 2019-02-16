@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Replacing an incorrect git commit message
 tags: [git, programming]
 ---

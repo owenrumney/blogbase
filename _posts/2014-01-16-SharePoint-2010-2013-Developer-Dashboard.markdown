@@ -1,6 +1,7 @@
 ---
 title: SharePoint 2010/2013 Developer Dashboard
 layout: post
+author: Owen Rumney
 tags: [sharepoint]
 ---
 

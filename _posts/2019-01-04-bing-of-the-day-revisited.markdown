@@ -1,6 +1,8 @@
 ---
 layout: post
+author: Owen Rumney
 title: Bing of the Day revisited
+summary: Walkthough of the steps required to move a bing of the day wallpaper borrower into a lambda script triggered by CloudWatch
 tags: [aws, bing, python]
 ---
 

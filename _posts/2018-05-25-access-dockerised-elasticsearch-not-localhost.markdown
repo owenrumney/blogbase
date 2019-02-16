@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Owen Rumney
 title: Allow connection to dockerised elasticsearch other than localhost
 tags: [docker, elasticsearch, kubernetes, minikube]
 ---
