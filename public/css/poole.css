@@ -420,6 +420,29 @@ tbody tr:nth-child(odd) th {
   border: 1px solid #515151;
 }
 
+.select {
+  background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+  background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #E9E9E9));
+
+  text-indent: 5px;
+  text-overflow: '';
+
+  height: 40px;
+}
+
+.button {
+  background-color: #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-border-radius: 5px;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #949494;
+  font-size: 0.8em;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 /*
  * Pagination
  *
