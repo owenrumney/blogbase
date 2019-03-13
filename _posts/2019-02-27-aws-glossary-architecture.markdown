@@ -13,6 +13,8 @@ The logical diagram below details the basic structure of the application. The co
 
 | Component | Purpose |
 |:--|:--|
+|Github|Static content stored in github |
+|CodePipeline|On commit to the master branch of the github repo - UI components deployed to S3|
 |S3 | Static content for the application is stored in an S3 bucket configured for website hosting |
 |CloudFront | Edge location storage, but more importantly, facilitates SSL  |
 |Route53 | Hosted zone for the aws-glossary.info domain - points to the CloudFront distribution|
