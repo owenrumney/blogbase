@@ -5,7 +5,7 @@ summary: Yeah, I know how to explode in Spark, but what is the opposite and how 
 tags: [pyspark, python, spark, collect_list, explode]
 ---
 
-# Overview
+## Overview
 
 I've just spent a bit of time trying to work out how to group a Spark Dataframe by a given column then aggregate up the rows into a single `ArrayType` column.
 

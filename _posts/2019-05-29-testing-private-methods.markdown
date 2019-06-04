@@ -141,3 +141,33 @@ val content = ObjectWithPrivate invokePrivate loadFromS3(
 ```
 
 This will call the private method, returning our `BufferedSource` and I can test that the content of the mocked S3 object is infact `file1_content`.
+
+For interest, here is the `build.sbt` for this simple project
+
+```scala
+name := "PrivateMethodTester"
+
+version := "0.1"
+
+scalaVersion := "2.12.8"
+
+// dependencies versions
+val amazonSdkVersion = "1.11.540"
+val logbackClassicVersion = "1.2.3"
+val s3MockVersion = "0.2.4"
+val scalaTestVersion = "3.0.5"
+val slf4jVersion = "1.7.25"
+
+libraryDependencies ++= Seq(
+  "com.amazonaws" % "aws-java-sdk-core" % amazonSdkVersion,
+  "com.amazonaws" % "aws-java-sdk-s3" % amazonSdkVersion,
+  "org.slf4j" % "slf4j-api" % slf4jVersion,
+  "ch.qos.logback" % "logback-classic" % logbackClassicVersion,
+  "org.scalatest" %% "scalatest" % scalaTestVersion,
+  "io.findify" %% "s3mock" % s3MockVersion % Test
+)
+```
+
+### Update - Implicit Parameters
+
+One thing worth adding is what to do when you have a method that takes an implicit method which needs testing. Lets used this contrived example;
