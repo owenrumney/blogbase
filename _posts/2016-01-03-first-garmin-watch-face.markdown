@@ -3,6 +3,7 @@ title: First go at creating a Garmin watch face
 layout: post
 author: Owen Rumney
 tags: [monkey c, garmin, coding]
+categories: [Programming]
 ---
 
 For a while Garmin have been adding "wearable technology" functionality to their watches - notifications from the phone etc. I got a Garmin Fenix 3 for Christmas and had a play with the vast number of watch faces and widgets that were available.
@@ -103,8 +104,8 @@ Running in IntelliJ for me is a case of Shift+F10 and the Run Configuration load
 
 In the simulator you can set the levels of activity and change properties of the device such as battery status and GPS etc.
 
-![Steps in progress]({{ site.baseurl }}images/steps_in_progress.png)
+![Steps in progress]({{ site.baseurl }}/images/steps_in_progress.png)
 _Daily steps in progress_
 
-![Steps in progress]({{ site.baseurl }}images/steps_complete.png)
+![Steps in progress]({{ site.baseurl }}/images/steps_complete.png)
 _Daily steps in completed_

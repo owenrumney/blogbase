@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Running Spark against HBase
 tags: [programming, spark, hbase, scala]
+categories: [Spark, Programming]
 ---
 
 Its reasonably easy to run a Spark job against HBase using the `newAPIHadoopRDD` available on the `SparkContext`.

@@ -4,6 +4,8 @@ author: Owen Rumney
 title: Refreshing AWS credentials in Python
 summary: Handling refreshing credentials in python code using boto3 and botocore
 tags: [aws, python, botocore, boto3]
+category: Amazon Web Services
+categories: [Amazon Web Services, Programming]
 ---
 
 In a recent post I covered an [using RefreshingAWSCredentials within .NET AWS SDK]({% post_url  2019-01-09-implementing-refreshingawscredentials %}) to solve an issue with the way my current organisation has configured SingleSignOn (SSO) and temporary credentials.

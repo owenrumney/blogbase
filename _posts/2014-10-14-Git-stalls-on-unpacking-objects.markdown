@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Git hangs while unpacking objects (Windows)
 tags: [windows, git]
+categories: [SysAdmin]
 ---
 
 I'm not sure if this is because we're behind a proxy, the network has issues or my work laptop isn't great, but for some reason the git clones very often hang during the unpacking of objects.

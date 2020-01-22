@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Adventures with Spark, part one
 tags: [spark, scala]
+categories: [Programming, Spark]
 ---
 
 For 18 months I've been working with Hadoop. Initially it was Hortonworks HDP on Windows then Hortonworks HDP on CentOS and for production we settled on Cloudera CDH5 on Red Hat. Recently we've been introduced to Spark and subsequently Scala which I am now in the process of skilling up on, the plan is to blog as I learn.
