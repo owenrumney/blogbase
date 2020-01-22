@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Monit
 tags: [monitoring, alerting, linux]
+categories: [SysAdmin]
 ---
 
 There are lots of monitoring and alerting tools out there and I'm sure everyone has there own preference on which they're going to use.

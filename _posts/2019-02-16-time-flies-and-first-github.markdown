@@ -13,7 +13,7 @@ The first project was an implementation of the LightsOut game written in NodeJS.
 
 The game is simple, click on the lights till they all go out, but when you click a cell, the state of the horizontal and vertical adjacent cells toggle their state.
 
-![LightsOut Game]({{ site.baseurl }}images/lightsout.png)
+![LightsOut Game]({{ site.baseurl }}/images/lightsout.png)
 
 Even a cursory look at the code has highlighted that it isn't great, but my thoughts are more about how great it is to have Github and source control systems as a whole. Over the years, my laptops have been changed, flattened, stolen and lost, yet all I needed was a `git clone git@github.com:owenrumney/Lightsout.git` and I was able to run (confession, I also had to install node) my inagural GitHub contribution.
 

@@ -3,6 +3,8 @@ layout: post
 author: Owen Rumney
 title: Client side encryption using Boto3 and AWS KMS
 tags: [aws, boto3, encryption]
+categories: [Amazon Web Services, Programming]
+
 ---
 
 Towards the end of 2014 Amazon released the KMS service to provide a cheaper cut down offering for [Key Management Services](http://aws.amazon.com/kms/) than those provided with the CloudHSM solutions (although it still uses hardware HSM underneath).

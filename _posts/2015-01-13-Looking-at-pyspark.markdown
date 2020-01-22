@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Quick introduction to pyspark
 tags: [pyspark, python, spark]
+categories: [Programming, Spark]
 ---
 
 All the work I have been doing with AWS has been using Python, specifically [boto3](http://boto3.readthedocs.org/en/latest/) the rework of boto.

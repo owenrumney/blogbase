@@ -4,6 +4,7 @@ author: Owen Rumney
 title: Adding retry logic to urllib3 Python code
 summary: Tutorial on the steps required to add retry logic to urllib3 requests
 tags: [python, urllib3, retry logic]
+categories: [Programming]
 ---
 
 In this post I'm going to cover the basics of implementing retry logic using urllib3.

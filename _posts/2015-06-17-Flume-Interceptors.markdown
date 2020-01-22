@@ -3,9 +3,10 @@ title: Writing a Flume Interceptor
 layout: post
 author: Owen Rumney
 tags: [hadoop, flume, java]
+categories: [Big Data, Programming]
 ---
 
-He we are in June, some five months since the last post and I finally have some time and content to sit and write a post.
+Here we are in June, some five months since the last post and I finally have some time and content to sit and write a post.
 
 In April 2013 I started working with Hadoop, the plan was to suck in server application logs to determine who was using what data within the business to make sure it was being correctly accounted for. At the time, Flume seemed like the obvious choice to ingest these files till we realised the timing, format and frequency made Flume a little like over kill. As it happened, it was discounted before I could get my teeth into it.
 

@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Adventures with Spark, part two
 tags: [spark, scala]
+categories: [Progamming, Spark]
 ---
 
 Some time ago, back in September, I wrote a post on [starting my adventures with Spark]({% post_url 2014-09-14-Adventures_with_Spark_pt1 %}) but didn't progress things very far.

@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Creating environment variables from the command line (Windows)
 tags: [windows, system, configuration]
+categories: [SysAdmin]
 ---
 
 I know that it is incredibly lazy and a non problem but I find it quite tedious in Windows 8 to go digging for the system environment variable GUI whenever I need to add or update something.

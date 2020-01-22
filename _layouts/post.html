@@ -1,49 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-GB">
+{% include head.html %}
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }} - about {% include readtime.html %} to read</span>
+<body>
+    {% include svg-icons.html %}
+    {% include header-post.html %}
+    <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  {{ content }}
-</div>
+        <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+            {{ content }}
+            <div class="tags">
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                {% endfor %}
+            </div>
+<a href="#" data-scroll role="button" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+        </article>
 
-<div id="disqus_thread"></div>
+                            
+        {% include share.html %}
+        {% include author.html %}
+        {% include comments.html %}
+        {% include footer.html %}
+    </section>
+
+</body>
 <script>
-  var disqus_config = function () {
-    this.page.url = "{{ site.url }}{{ page.url }}";
-
-  };
-
-  (function () {
-    var d = document,
-      s = d.createElement('script');
-    s.src = 'https://owenrumney.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
+    $(function () {
+        setTimeout(function () {
+            $('#scrolllink').click();
+        }, 1200);
+    });
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.posts %}
-    {% if post.url != page.url %}
-    {% for tag in page.tags %}
-    {% if post.tags contains tag %}
-    <li>
-      <h3>
-        <a href="{{ post.url }}">
-          {{ post.title }}
-          <small>{{ post.date | date_to_string }}</small>
-        </a>
-      </h3>
-    </li>
-    {% break %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+
+</html>

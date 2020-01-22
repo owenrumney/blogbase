@@ -3,6 +3,7 @@ layout: post
 title: git alias for concise history
 summary: Getting more concise git log
 tags: [git, alias, nice]
+category: Git
 ---
 
 This is pretty short post. H/T to [@prokopp](https://twitter.com/prokopp) for telling me know about this.

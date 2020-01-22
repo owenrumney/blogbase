@@ -1,30 +1,37 @@
-# Dependencies
+# Site settings
+title: Owen Rumney Blog
+description: Bits of blogging by Owen Rumney
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.owenrumney.co.uk" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+username: Owen Rumney
+user_description: Software Engineer 
+user_title: Software Engineer
+email: owen@owenrumney.co.uk
+twitter_username: owenrum
+github_username:  owenrumney
+disqus_username: owenrumney
+linkedin_username: owenrumney
+
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate, jekyll-sitemap]
-
-# Setup
-title: Owen Rumney
-tagline: Software Developer
-description:
-url: http://www.owenrumney.co.uk
-baseurl: /
-permalink: pretty
-
-author:
-  name: "Owen Rumney"
-  url: https://twitter.com/owenrum
-
-paginate: 5
-
-# Custom vars
-version: 2.1.0
+permalink: /:title/
 
 compress_html:
   clippings: all
-  comments: [""]
-  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  comments: all
+  endings: []
   profile: false
-  blanklines: false
-  ignore:
-    envs: []
+
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about    
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

@@ -3,6 +3,7 @@ layout: post
 author: Owen Rumney
 title: Using yum history
 tags: [linux, yum]
+categories: [SysAdmin]
 ---
 
 I have been setting up a couple of Red Hat boxes and I need to have a cron task to mount a network share from an AD domain, copy the files then dismount.
@@ -19,7 +20,7 @@ yum history
 
 which will give the output similar to;
 
-![yum history output]({{ site.baseurl }}images/yum_history.png)
+![yum history output]({{ site.baseurl }}/images/yum_history.png)
 
 Thankfully, from the dates I was able to work out the point that I had done the install. From this point you can look at a specific item, for example;
 
@@ -29,4 +30,4 @@ yum history info 57
 
 which will return more information about the command
 
-![yum history info for id 57]({{ site.baseurl }}images/yum_history_info_57.png)
+![yum history info for id 57]({{ site.baseurl }}/images/yum_history_info_57.png)

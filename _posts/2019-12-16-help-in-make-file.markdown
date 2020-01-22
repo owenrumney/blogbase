@@ -2,7 +2,8 @@
 layout: post
 title: Adding Help to a Makefile
 summary: Add a quick help section to a Makefile
-tags: []
+tags: [make,documentation]
+categories: [SysAdmin]
 ---
 
 Sometimes you inherit or even create a huge `Makefile` which is unwieldly and difficult to understand. The longer it is, the more complicated it can be to find out which targets are available and what they do.

@@ -4,6 +4,7 @@ author: Owen Rumney
 title: Introducing gitsearch-cli
 summary: Description of a tool I've written that can be used to find github projects from the command line
 tags: [python3, github, pypi]
+categories: [Git, Programming]
 ---
 The first version of gitsearch-cli is now available. This command line interface allows you to search github repositories and users using keywords and (currently) a handful of additional criteria.
 
