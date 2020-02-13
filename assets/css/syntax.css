@@ -4,6 +4,9 @@
 }
 .highlight .hll {
   background-color: #333;
+    max-width: 50rem;
+    margin-right: auto;
+  margin-left: auto;
 }
 .highlight .c,
 .highlight .cm,

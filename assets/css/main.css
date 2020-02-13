@@ -901,10 +901,12 @@ body {
   *zoom: 1;
   width: auto;
   max-width: 50rem;
+    margin-right: auto;
+  margin-left: auto;
   float: none;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+
+  padding-top: 20;
   padding-left: 0;
   padding-right: 0;
   padding: 0 1.25rem;
@@ -1245,9 +1247,16 @@ pre span {
     margin: 0;
 }
 .highlight {
-  margin: 0;
+    max-width: 50rem;
+    margin-right: auto;
+  margin-left: auto;
 }
-@media only screen and (min-width: 37.5rem) {
+
+
+
+pre {
+    tab-size: 2;
+}@media only screen and (min-width: 37.5rem) {
  
 .author {
   background: #f2f2f2;
