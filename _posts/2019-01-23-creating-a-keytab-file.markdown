@@ -7,22 +7,26 @@ tags: [security, kerberos, keytab, ktutil]
 categories: [SysAdmin]
 ---
 
-***NOTE: Creating a keytab file is easy enough but I have to refresh myself each time so I thought I would document it in a blog post.***
+{% include callout.html type="info" content="NOTE: Creating a keytab is easy this is just to remind me." %}
 
 ## Assumptions
+
 I'm assuming for anyone who is doing this that you have your `/etc/krb5.conf` in order and that isn't going to get in your way.
 
 One thing you're going to want to know is what your permitted and default `enctypes` and the realm are from this file. In my case I'm going to use `aes128-cts-hmac-sha1-96` and my realm is `DPE.INTERNAL`.
 
 ## Creating the keytab file
+
 To create the keytab file you're going to need `ktutil` (and a number of other `kxxxxxx` commands)
 
 **RHEL/Centos**
+
 ```
 sudo yum install krb5-workstation
 ```
 
 **Ubuntu**
+
 ```
 sudo apt-get install krb5-user
 ```
@@ -43,9 +47,9 @@ write_kt user.keytab
 quit
 ```
 
-Breaking this down, we are saying that we want to add an entry to the keytab using a password for authentication. 
+Breaking this down, we are saying that we want to add an entry to the keytab using a password for authentication.
 
-The `-p` is the principal that we will be logging in as using the end file. 
+The `-p` is the principal that we will be logging in as using the end file.
 
 The `-k` refers to the Key Version Number which in some situations isn't really needed and is ignored (in Windows environment for example). You can get the current Key version number (kvno) by using the `kvno` command
 
@@ -57,6 +61,7 @@ user@DPE.INTERNAL: kvno = 1
 The `-e` refers to the enctype mentioned earlier. This needs to be one of those that are permitted in your `krb5.conf` file so you're using an accepted and appropriate encryption.
 
 ## Testing the Key
+
 We can now test the keytab for successfully login
 
 ```shell
