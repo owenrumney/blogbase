@@ -27,9 +27,12 @@
 </body>
 <script>
     $(function () {
-        setTimeout(function () {
-            $('#scrolllink').click();
-        }, 1200);
+        if (window.location.href.indexOf('#')  == -1) {
+            setTimeout(function () {
+                $('#scrolllink').click();
+            }, 1200);
+        }
+        
     });
 </script>
 
