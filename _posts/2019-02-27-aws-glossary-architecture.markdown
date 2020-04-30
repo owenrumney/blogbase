@@ -12,15 +12,15 @@ I recently posted an entry [announcing www.aws-glossary.info]({% post_url 2019-0
 
 The logical diagram below details the basic structure of the application. The core components are;
 
-| Component | Purpose |
-|:--|:--|
-|Github|Static content stored in github |
-|CodePipeline|On commit to the master branch of the github repo - UI components deployed to S3|
-|S3 | Static content for the application is stored in an S3 bucket configured for website hosting |
-|CloudFront | Edge location storage, but more importantly, facilitates SSL  |
-|Route53 | Hosted zone for the aws-glossary.info domain - points to the CloudFront distribution|
-|Lambda | Python lambda function to get the latest documentation data and store in a neat JSON file |
-|CloudWatch Events | Used to trigger the lambda function |
+| Component         | Purpose                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------ |
+| Github            | Static content stored in github                                                             |
+| CodePipeline      | On commit to the master branch of the github repo - UI components deployed to S3            |
+| S3                | Static content for the application is stored in an S3 bucket configured for website hosting |
+| CloudFront        | Edge location storage, but more importantly, facilitates SSL                                |
+| Route53           | Hosted zone for the aws-glossary.info domain - points to the CloudFront distribution        |
+| Lambda            | Python lambda function to get the latest documentation data and store in a neat JSON file   |
+| CloudWatch Events | Used to trigger the lambda function                                                         |
 
 ![Basic Architecture Diagram]({{ site.baseurl }}/images/aws_glossary_architecture.png)
 
@@ -32,5 +32,5 @@ Finally, for ease (and because I'm no good a UI design), I've used Bootstrap 4.0
 
 Resources:
 
-* [KnockoutJS](https://knockoutjs.com/)
-* [Bootstrap 4.0](https://getbootstrap.com/)
+- [KnockoutJS](https://knockoutjs.com/)
+- [Bootstrap 4.0](https://getbootstrap.com/)

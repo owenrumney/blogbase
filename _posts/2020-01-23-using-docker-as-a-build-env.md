@@ -44,7 +44,7 @@ import (
 func StartServer(stop chan bool) {
 	start := make(chan bool, 1)
 
-	http.HandleFunc("/", HttpCodeServer)
+	http.HandleFunc("/", HttpCodeServer)3
 
 	go func() {
 		for {

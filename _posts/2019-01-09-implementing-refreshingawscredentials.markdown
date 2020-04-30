@@ -19,13 +19,13 @@ So, having written that, I realise we're looking at a very niche use case, but i
 
 Behind the scenes, there is a PowerShell in the background running as a scheduled task to go through Single Sign On and get new tokens to write in the credential file. I won't go into any more detail than that as its very company specific.
 
-As the 3rd party application creates the client on startup it uses the latest credentials but they don't get refreshed from the credential file. I found an abstract class in the .NET SDK called `RefreshingAWSCredentials` which looked promising. 
+As the 3rd party application creates the client on startup it uses the latest credentials but they don't get refreshed from the credential file. I found an abstract class in the .NET SDK called `RefreshingAWSCredentials` which looked promising.
 
 With this class, you can set an expiration for the Credential object such that any AWS SDK client that is using it for the API calls - for example;
 
 ```csharp
 var s3Client = new AmazonS3Client(ExternalRefreshingAWSCredentilas.Credentials);
-``` 
+```
 
 will create an S3Client that is given the refreshing credentials specified below.
 
@@ -35,7 +35,7 @@ using Amazon.Runtime.CredentialManagement;
 using log4net;
 using System;
 using System.Configuration;
- 
+
 namespace AwsCredentialsExample.Credentials
 {
     public class ExternalRefreshingAWSCredentials : RefreshingAWSCredentials
@@ -73,20 +73,20 @@ namespace AwsCredentialsExample.Credentials
               Logger.Info(string.Format("Credential file profile is {0}", credentialFileProfile));
             credentialRefreshState = GenerateNewCredentials();
         }
- 
+
         public override void ClearCredentials()
         {
             Logger.Info("Clearing the credentials");
             credentialRefreshState = null;
         }
- 
+
         protected override CredentialsRefreshState GenerateNewCredentials()
         {
             Logger.Info(string.Format("Generating credentials, valid for {0} minutes", refreshMinutes));
             var credFile = new StoredProfileAWSCredentials(credentialFileProfile, credentialFileLocation);
             return new CredentialsRefreshState(credFile.GetCredentials(), DateTime.Now.AddMinutes(refreshMinutes));
         }
- 
+
         public override ImmutableCredentials GetCredentials()
         {
             if (credentialRefreshState == null || credentialRefreshState.Expiration < DateTime.Now)
