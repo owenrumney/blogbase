@@ -116,11 +116,11 @@ services:
     restart: always
     image: owenrumney/awsbackend:latest
     environment:
-      - VIRTUAL_HOST=aws-diagrams.owenrumney.co.uk
+      - VIRTUAL_HOST=www.awsdiagrams.io
       - VIRTUAL_PORT=8080
-      - LETSENCRYPT_HOST=aws-diagrams.owenrumney.co.uk
+      - LETSENCRYPT_HOST=www.awsdiagrams.io
 ```
 
 The environment variables are uses by the proxy and the companion to create the certs and to configure the nginx routing.
 
-You can see the finished result running at [AWS Diagrams](https://aws-diagrams.owenrumney.co.uk)
+You can see the finished result running at [AWS Diagrams](https://www.awsdiagrams.io/editor)
