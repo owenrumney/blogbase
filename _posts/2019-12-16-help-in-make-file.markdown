@@ -14,7 +14,7 @@ This post covers an effective way to add a help target to a `Makefile` which wil
 
 I'm going to use a really basic but real `Makefile` as a starting example. It runs a suite of tests, creates a dockerised environment for testing against or can stop the env.
 
-```
+```make
  test:
  ## test: Run the test suite then shut down
    docker-compose up --abort-on-container-exit --exit-code-from tests
@@ -35,7 +35,7 @@ Lets imagine that there are another 20 targets available including dependency ma
 To add a `help` section, we can put a comment under each of the targets with details of the action, then use a simple hand full of commands including `sed` and `column` in the `help` target.
 
 
-```
+```make
  test:
  ## test: Run the test suite then shut down
    docker-compose up --abort-on-container-exit --exit-code-from tests
