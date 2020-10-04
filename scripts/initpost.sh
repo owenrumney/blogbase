@@ -43,9 +43,10 @@ TIME=$(date +"%T")
 # ----------------------------------------------------------------
 
 # Set your destination folder
+
 BINPATH=$(cd `dirname $0`; pwd)
-POSTPATH="${BINPATH}/_posts"
-DRAFTPATH="${BINPATH}/_drafts"
+POSTPATH="_posts"
+DRAFTPATH="_drafts"
 
 if [[ "${1}" == "-c" || "${1}" == "--create" ]]; then
     DIST_FOLDER="$POSTPATH"
