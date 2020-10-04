@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building Jekyll Websites with Travis"
-date: 2020-10-04 13:40:38
+date: 2020-10-04 00:00:00
 image: '/assets/img/'
 description: How to generate your Jekyll website with Travis
 tags: [travis, jekyll, blogging]
@@ -92,15 +92,19 @@ function deploy {
 ```
 
 #### clean
+
 The `clean` function ensures that the location the static site is generated into is gone (in the default cause this is the `_site` folder)
 
 #### clone_site
+
 When we do the build in travis, we need to have the destination `github pages` project cloned into `_site` for writing. THis function does that clone to get the latest.
 
 #### build
+
 The `build` function runs `jekyll build` which by default will generate the site into `_site` folder
 
-#### deploy
+#### deploy
+
 The `deploy` function is the main section for commiting the updates in the `github pages` project. This function ensures that the Travis run isn't a PR and that the branch is `master` if these conditions are satisfied it will commit the changes to `_site` and push to make them available.
 
 ### The Makefile
