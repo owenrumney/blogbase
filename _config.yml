@@ -2,7 +2,7 @@
 title: Owen Rumney Blog
 description: Bits of blogging by Owen Rumney
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.owenrumney.co.uk" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://www.owenrumney.co.uk" 
 
 username: Owen Rumney
 user_description: Software Engineer 
@@ -33,5 +33,4 @@ links:
   - title: About Me
     url: /about    
 
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ['package.json', 'src', 'node_modules', 'build.sh', 'Gemfile', 'initpost.sh', 'gulpfile.js']
