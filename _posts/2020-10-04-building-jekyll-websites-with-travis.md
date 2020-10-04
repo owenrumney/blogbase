@@ -176,22 +176,24 @@ Now, when I commit changes to my blog base project, it runs in Travis and I get 
 Installing SSH key from: default repository key
 Using /home/travis/.netrc to clone repository.
 git.checkout
-1.10s$ git clone --depth=50 --branch=master https://github.com/owenrumney/blogbase.git owenrumney/blogbase
-0.01s
+$ git clone --depth=50 --branch=master https://github.com/owenrumney/blogbase.git owenrumney/blogbase
+
 Setting environment variables from .travis.yml
 $ export GITHUB_TOKEN=[secure]
 rvm
-0.64s$ rvm use default
+$ rvm use default
 $ export BUNDLE_GEMFILE=$PWD/Gemfile
 cache.1
 Setting up build cache
 cache.bundler
-0.00s0.95sadding /home/travis/build/owenrumney/blogbase/vendor/bundle to cache
+adding /home/travis/build/owenrumney/blogbase/vendor/bundle to cache
 ruby.versions
 $ ruby --version
 install
-151.74s$ bundle install
-4.78s$ make deploy
+
+$ bundle install
+$ make deploy
+
 cleaning _site folder
 getting latest site
 Cloning into '_site'...
