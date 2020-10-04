@@ -33,4 +33,4 @@ links:
   - title: About Me
     url: /about    
 
-exclude: ['package.json', 'src', 'node_modules', 'build.sh', 'Gemfile', 'initpost.sh', 'gulpfile.js']
+exclude: ['package.json', 'src', 'node_modules', 'scripts', 'Gemfile', 'gulpfile.js', 'Makefile']

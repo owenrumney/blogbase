@@ -5,24 +5,17 @@ set -e
 DEPLOY_REPO="https://${GITHUB_TOKEN}@github.com/owenrumney/owenrumney.github.io.git"
 MESSAGE=$(git log -1 HEAD --pretty=format:%s)
 
-function main {
-	clean
-	get_current_site
-	build_site
-    deploy
-}
-
 function clean { 
 	echo "cleaning _site folder"
 	if [ -d "_site" ]; then rm -Rf _site; fi 
 }
 
-function get_current_site { 
+function clone_site { 
 	echo "getting latest site"
 	git clone --depth 1 $DEPLOY_REPO _site 
 }
 
-function build_site { 
+function build { 
 	echo "building site"
 	bundle exec jekyll build --lsi
 }
@@ -41,12 +34,9 @@ function deploy {
 	fi
 
 	cd _site
-	git config --global user.name "Travis Build"
-    git config --global user.email travis@owenrumney.co.uk
+	git config user.name "Travis Build"
+    git config user.email travis@owenrumney.co.uk
 	git add -A
-	git status
-	git commit -m "Travis Build: $TRAVIS_BUILD_NUMBER. ${MESSAGE}"
+	git commit -m "Travis Build: ${TRAVIS_BUILD_NUMBER}. ${MESSAGE}"
 	git push $DEPLOY_REPO master:master
 }
-
-main
