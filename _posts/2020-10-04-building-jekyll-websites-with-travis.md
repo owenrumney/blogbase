@@ -16,12 +16,12 @@ For as long as I have been building the site in this way I've built the site loc
 At work we use Travis extensively for our build pipeline, I already have a Travis account personally so it occurred to me that I should be generating the site directly off commits to the blog base project, where I write my Markdown.
 
 ## What I will need
-- [x] Travis Account
-- [x] `GITHUB_TOKEN` with permissions to update repositories
-- [x] Travis gem
-- [x] Build Scripts
-- [x] `Makefile`
-- [x] `.travis.yml` file
+- Travis Account
+- `GITHUB_TOKEN` with permissions to update repositories
+- Travis gem
+- Build Scripts
+- `Makefile`
+- `.travis.yml` file
 
 ### The Travis Account
 
