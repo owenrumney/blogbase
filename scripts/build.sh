@@ -37,6 +37,6 @@ function deploy {
 	git config user.name "Travis Build"
     git config user.email travis@owenrumney.co.uk
 	git add -A
-	git commit -m "Travis Build: ${TRAVIS_BUILD_NUMBER}. ${MESSAGE}"
+	git commit -m "${MESSAGE}"
 	git push $DEPLOY_REPO master:master
 }
