@@ -4,7 +4,7 @@ title: "Building Jekyll Websites with Travis"
 date: 2020-10-04 13:40:38
 image: '/assets/img/'
 description: How to generate your Jekyll website with Travis
-tags: [travis, jekyll]
+tags: [travis, jekyll, blogging]
 categories:
 twitter_text: Generating your Jekyll website with Travis
 ---
