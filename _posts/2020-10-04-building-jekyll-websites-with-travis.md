@@ -111,7 +111,7 @@ The `deploy` function is the main section for commiting the updates in the `gith
 To simplify the running of the commands - and to allow them to be used locally easily, there is a `Makefile`
 
 ```
-.PHONEY: initpost clean clone_site build deploy
+.PHONY: initpost clean clone_site build deploy
 
 initpost:
 	@bash -c "./scripts/initpost.sh"
