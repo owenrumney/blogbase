@@ -180,7 +180,7 @@ curl -v http://localhost:8080/502
 
 This should return a verbose message saying we got a `502`
 
-```
+```shell
 *   Trying 127.0.0.1...
 * TCP_NODELAY set
 * Connected to localhost (127.0.0.1) port 8080 (#0)

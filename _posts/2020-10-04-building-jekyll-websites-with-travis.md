@@ -46,7 +46,7 @@ If you've got Jekyll, I'm assuming you've already got the Ruby infrastructure on
 
 Below is the build script I use; I'll break down the sections.
 
-```
+```shell
 #! /bin/bash
 
 set -e
@@ -110,7 +110,7 @@ The `deploy` function is the main section for commiting the updates in the `gith
 ### The Makefile
 To simplify the running of the commands - and to allow them to be used locally easily, there is a `Makefile`
 
-```
+```make
 .PHONY: initpost clean clone_site build deploy
 
 initpost:
@@ -140,7 +140,7 @@ To pull this all together and trigger the build when we commit, we need the `.tr
 
 This file sits in the root of the project and when committed, triggers a Travis build of the current branch and where applicable, the associated PR.
 
-```
+```ruby
 language: ruby
 cache: bundler
 env:
@@ -172,7 +172,7 @@ Finally the job runs `make deploy` which will build the site and deploy it to th
 
 Now, when I commit changes to my blog base project, it runs in Travis and I get output similar to this;
 
-```
+```shell
 Installing SSH key from: default repository key
 Using /home/travis/.netrc to clone repository.
 git.checkout

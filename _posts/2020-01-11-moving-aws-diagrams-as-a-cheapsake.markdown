@@ -38,7 +38,7 @@ The droplet has a Firewall assigned which is allowing port 80 and 443 traffic, b
 
 I am using Docker Compose to create the containers on the box so I need a docker compose file for nginx and lets encrypt companion.
 
-```
+```ruby
 version: '2'
 
 services:
@@ -71,7 +71,7 @@ AWS Backend is the name I gave the backend for the AWS diagram tool. In hindsigh
 
 The solution is comprised of a `jar` and some html. The docker file is fairly basic too
 
-```
+```docker
 FROM amazoncorretto:8
 # copy WAR into image
 COPY www /editor
@@ -90,25 +90,25 @@ To build this locally;
 
 1. Login to Docker
 
-```
+```shell
 docker login -u owenrumney`
 ```
 
 2. Build the image
 
-```
+```shell
 docker build -t owenrumney/awsbackend .
 ```
 
 3. Push to `Dockerhub`
 
-```
+```shell
 docker push owenrumney/awsbackend
 ```
 
 Now the image is available for use, I can add another compose file.
 
-```
+```ruby
 version: '2'
 
 services:

@@ -64,7 +64,7 @@ Now we can run `make help` to get more information about the available targets.
 
 This will give us the result;
 
-```
+```shell
 $ make help
 Usage:
 

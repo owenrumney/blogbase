@@ -15,7 +15,7 @@ Terraform, for those who haven't used it before, lets you declaratively specify 
 
 As an example, say we wanted to create a new S3 bucket in our AWS account we might define something like;
 
-```
+```terraform
 resource "aws_s3_bucket" "my-bucket-for-secret-things" {
   bucket = "my-bucket-for-secret-things"
   acl    = "public-read"
@@ -53,7 +53,7 @@ choco install tfsec
 
 ### Linux/everything else
 Alternatively, you can install using `go get` 
-```
+```shell
 go get -u github.com/tfsec/tfsec/cmd/tfsec
 ```
 
@@ -72,7 +72,7 @@ tfsec tf
 
 This will give me a list of problems categorised into severities. 
 
-```
+```terraform
 3 potential problems detected:
 
 Problem 1
@@ -140,17 +140,16 @@ The other two errors tell us that we don't have "at rest" encryption and we coul
 
 One of the benefits of `tfsec` is the ability for it to process default variable values and report on them as well. For example if we had a variable for the acl.
 
-```
+```terraform
 variable "bucket-acl" {
     description = "The ACL for S3 buckets"
     default     = "public-read"
 }
-
 ```
 
 then we update the `main.tf` file to use this variable rather than the hard coded value;
 
-```
+```terraform
 resource "aws_s3_bucket" "my-bucket-for-secret-things" {
   bucket = "my-bucket-for-secret-things"
   acl    = var.bucket-acl
@@ -162,8 +161,16 @@ resource "aws_s3_bucket" "my-bucket-for-secret-things" {
 }
 ```
 
-Now when we run `tfsec` against the `tf` folder it gives us a slightly different error;
+Our folder structure now looks more like this;
 ```
+.
+|_ tf/
+    |_ main.tf
+    |_ variables.tf
+```
+
+Now when we run `tfsec` against the `tf` folder it gives us a slightly different error;
+```terraform
 Problem 1
 
   [AWS001][] Resource 'aws_s3_bucket.my-bucket-for-secret-things' has an ACL which allows public read access.
@@ -187,7 +194,7 @@ The default value as been evaluated from the `variables.tf` file and seen that w
 
 Assuming that you did intend to ignore this error for this resource, that is fine, it can be done by adding an ignore declaration to the resource;
 
-```
+```terraform
 resource "aws_s3_bucket" "my-bucket-for-secret-things" {
   bucket = "my-bucket-for-secret-things"
   #tfsec:ignore:AWS001
