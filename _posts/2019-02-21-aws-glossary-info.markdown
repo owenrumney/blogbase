@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dynamic AWS Glossary
-summary: Introduction to aws-glossary.info, the dynimcally generated AWS Glossary of services
+description: Introduction to aws-glossary.info, the dynimcally generated AWS Glossary of services
 tags: [aws]
 category: Amazon Web Services
 ---

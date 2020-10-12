@@ -2,7 +2,7 @@
 layout: post
 author: Owen Rumney
 title: Generating test data with Faker
-summary: Using faker in python to generate test data that is reasonably meaningful
+description: Using faker in python to generate test data that is reasonably meaningful
 tags: [python, faker, test data, generator]
 categories: [Programming]
 ---

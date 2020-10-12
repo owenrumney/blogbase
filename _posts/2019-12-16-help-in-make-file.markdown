@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding Help to a Makefile
-summary: Add a quick help section to a Makefile
+description: Add a quick help section to a Makefile
 tags: [make,documentation]
 categories: [SysAdmin]
 ---

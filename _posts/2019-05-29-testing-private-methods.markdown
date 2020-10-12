@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing private methods with ScalaTest
-summary: How to test private methods easily with ScalaTest and PrivateMethodTester
+description: How to test private methods easily with ScalaTest and PrivateMethodTester
 tags: [scalatest, scala, testing]
 categories: [Programming]
 ---

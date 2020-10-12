@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How it works - www.aws-glossary.info
-summary: Overview of how the www.aws-glossary.info website works
+description: Overview of how the www.aws-glossary.info website works
 tags: [aws, architecture, glossary]
 category: Amazon Web Services
 ---

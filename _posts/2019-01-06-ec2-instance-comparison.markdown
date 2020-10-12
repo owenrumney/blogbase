@@ -2,7 +2,7 @@
 layout: post
 author: Owen Rumney
 title: AWS EC2 Comparison
-summary: Link to the comparision tool for comparing EC2 instance types
+description: Link to the comparision tool for comparing EC2 instance types
 tags: [aws, websites, tools]
 category: Amazon Web Services
 ---

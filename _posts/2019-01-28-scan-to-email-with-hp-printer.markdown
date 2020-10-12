@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Amazon SES with HP Scan-to-Email Printer
-summary: Walkthrough for using Amazon Simple Email Service to relay Scan-to-email messages
+description: Walkthrough for using Amazon Simple Email Service to relay Scan-to-email messages
 tags: [aws, ses, simple email service,  hp printer, email relay, smtp]
 ---
 

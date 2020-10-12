@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git alias for concise history
-summary: Getting more concise git log
+description: Getting more concise git log
 tags: [git, alias, nice]
 category: Git
 ---

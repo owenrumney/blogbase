@@ -2,7 +2,7 @@
 layout: post
 author: Owen Rumney
 title: Creating a Kerberos Keytab file with ktutil
-summary: Steps that are required to create a Kerberos keytab file on Linux
+description: Steps that are required to create a Kerberos keytab file on Linux
 tags: [security, kerberos, keytab, ktutil]
 categories: [SysAdmin]
 ---

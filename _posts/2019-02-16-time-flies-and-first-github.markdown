@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delving in the depths of my github
-summary: I found an old javascript game I wrote in 2012 - it still works, sort of
+description: I found an old javascript game I wrote in 2012 - it still works, sort of
 tags: [github, nodejs, lightsout]
 ---
 

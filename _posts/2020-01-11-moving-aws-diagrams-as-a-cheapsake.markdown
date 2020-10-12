@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving AWS Diagrams, aka Docker for cheapskates
-summary: Fargate with an ALB started to get a bit expensive so I needed to find a new way to host my aws diagram tool.
+description: Fargate with an ALB started to get a bit expensive so I needed to find a new way to host my aws diagram tool.
 tags: [aws, docker, diagrams, nginx, letsencrypt]
 categories: [Amazon Web Services]
 ---

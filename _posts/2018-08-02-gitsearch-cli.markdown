@@ -2,7 +2,7 @@
 layout: post
 author: Owen Rumney
 title: Introducing gitsearch-cli
-summary: Description of a tool I've written that can be used to find github projects from the command line
+description: Description of a tool I've written that can be used to find github projects from the command line
 tags: [python3, github, pypi]
 categories: [Git, Programming]
 ---

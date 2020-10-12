@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Databricks Single SignOn with Azure Active Directory
-summary: Step by step instructions for configuring Azure Active Directory to work with Databricks for Single SignOn
+description: Step by step instructions for configuring Azure Active Directory to work with Databricks for Single SignOn
 tags: [platform, azure, databrick, authentication, saml]
 category: Spark
 ---

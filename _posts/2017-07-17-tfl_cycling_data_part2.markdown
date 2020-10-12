@@ -29,7 +29,7 @@ This line will create a `DataFrame` called data and load the csv input into it. 
 Even though `inferSchema` was used, if we call `data.describe()` we can see that the type of the dates is `string`. I'm going to put that down to the fact that these dates are in UK format.
 
 ```
-DataFrame[summary: string
+DataFrame[description: string
 , RentalId: string
 , Duration: string
 , BikeId: string

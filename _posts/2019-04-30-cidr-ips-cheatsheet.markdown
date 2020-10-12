@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CIDR Cheatsheet for available IP Address
-summary: Simple post with a cheatsheet table for CIDR block mask and available IP numbers
+description: Simple post with a cheatsheet table for CIDR block mask and available IP numbers
 tags: [networking, cheatsheet]
 notruncate: true
 ---
