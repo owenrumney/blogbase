@@ -42,6 +42,9 @@ links:
     
 twitter:
   card: summary
-  username: owenrumney
+  username: owenrum
+
+plugins:
+  - jekyll-seo-tag
 
 exclude: ['package.json', 'src', 'node_modules', 'scripts', 'Gemfile', 'gulpfile.js', 'Makefile', 'Readme.md']
