@@ -9,9 +9,9 @@ categories:
 twitter_text: Using Go Github PR Commenter, automate your Github Comments
 ---
 
-A few weeks ago I wrote [tfsec-pr-commenter-action](https://github.com/tfsec/tfsec-pr-commenter-action), this is a ready to go Github Action that you can drop into your Terraform code repository and have each PR checked for tfsec security issues. 
+A few weeks ago I wrote [tfsec-pr-commenter-action](https://github.com/tfsec/tfsec-pr-commenter-action){:target="_blank"} , this is a ready to go Github Action that you can drop into your Terraform code repository and have each PR checked for tfsec security issues. 
 
-If you don't know anything about tfsec, you can learn more at [https://tfsec.dev](https://tfsec.dev)
+If you don't know anything about tfsec, you can learn more at [https://tfsec.dev](https://tfsec.dev){:target="_blank"} 
 
 ## The PR Commenter
 
@@ -19,7 +19,7 @@ It occurred to me shortly after adding it to some of our projects that the under
 
 Of course, the wrapping action code will be needed to un-marshall the analysis results but the creation of comments could be deferred to another library.
 
-This is where [go-github-pr-commenter](https://github.com/owenrumney/go-github-pr-commenter) comes in. 
+This is where [go-github-pr-commenter](https://github.com/owenrumney/go-github-pr-commenter){:target="_blank"}  comes in. 
 
 ## Usage
 
